@@ -1,0 +1,8 @@
+prefix=/home/pi/catkin_ws/install
+
+Name: Lepton3
+Description: Description of Lepton3
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
