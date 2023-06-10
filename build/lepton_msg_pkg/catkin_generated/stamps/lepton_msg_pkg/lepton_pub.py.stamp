@@ -19,9 +19,9 @@ def main():
 	count = 1
 
 	while not rospy.is_shutdown():
-		lepton.msg = np.random.randn(Width, Height)
-		lepton.size = np.random.randint(Width*Height) +1	
-		
+		lepton.msg = [0,1,2,3,4,5,6,7,8,9]
+		print(lepton.msg)
+		lepton.size = len(lepton.msg)
 		'''
 		print("-"*10)
 		print("Size: ", lepton.size)

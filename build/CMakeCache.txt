@@ -340,6 +340,12 @@ Lepton3_BINARY_DIR:STATIC=/home/pi/catkin_ws/build/Lepton3
 //Value Computed by CMake
 Lepton3_SOURCE_DIR:STATIC=/home/pi/catkin_ws/src/Lepton3
 
+//Value Computed by CMake
+Lepton_BINARY_DIR:STATIC=/home/pi/catkin_ws/build/Lepton
+
+//Value Computed by CMake
+Lepton_SOURCE_DIR:STATIC=/home/pi/catkin_ws/src/Lepton
+
 //Path to a program.
 NOSETESTS:FILEPATH=/usr/bin/nosetests3
 
@@ -457,6 +463,8 @@ gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
 //Value Computed by CMake
 lepton_msg_pkg_BINARY_DIR:STATIC=/home/pi/catkin_ws/build/lepton_msg_pkg
+
+lepton_msg_pkg_DIR:PATH=
 
 //Value Computed by CMake
 lepton_msg_pkg_SOURCE_DIR:STATIC=/home/pi/catkin_ws/src/lepton_msg_pkg

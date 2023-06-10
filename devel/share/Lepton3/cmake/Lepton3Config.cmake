@@ -185,7 +185,7 @@ foreach(t ${Lepton3_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "")
+set(depends "lepton_msg_pkg;roscpp;rospy;std_msgs")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls
@@ -214,7 +214,7 @@ foreach(depend ${depends})
   _list_append_deduplicate(Lepton3_EXPORTED_TARGETS ${${Lepton3_dep}_EXPORTED_TARGETS})
 endforeach()
 
-set(pkg_cfg_extras "")
+set(pkg_cfg_extras "Lepton3-msg-extras.cmake")
 foreach(extra ${pkg_cfg_extras})
   if(NOT IS_ABSOLUTE ${extra})
     set(extra ${Lepton3_DIR}/${extra})
