@@ -1,9 +1,7 @@
 # 2023CoilGun
 4학년 1학기 종합설계및운용 강의를 위한 ros 패키지 입니다.
 
-# Debian buster 환경에 ros noetic 설치
-
-## Debian buster에 ros noetic 설치
+## Debian buster 환경에 ros noetic 설치
 
 [How to Install ROS Noetic on Raspberry Pi 4 - VarHowto](https://varhowto.com/install-ros-noetic-raspberry-pi-4/)
 
@@ -53,7 +51,7 @@ rosinstall_generator ros_comm rosserial --rosdistro indigo --deps --wet-only --e
 rosinstall_generator ros_comm rosserial_arduino --rosdistro indigo --deps --wet-only --exclude roslisp --tar >> indigo-ros_comm-wet.rosinstall
 ```
 
-1. Merge & Update
+2. Merge & Update
 
 ```bash
 wstool merge -t src indigo-ros_comm-wet.rosinstall
