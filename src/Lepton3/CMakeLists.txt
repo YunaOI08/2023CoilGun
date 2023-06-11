@@ -13,6 +13,18 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
 )
 
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_AUTOMOC ON)
+find_package(Qt4 COMPONENTS
+  QtCore
+  QtGui
+#  QtWidgets
+)
+
+QT4_ADD_RESOURCES(QT_RESOURCES_CPP ${QT_RESOURCES})
+
+
+
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 
@@ -67,10 +79,10 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 ## Generate added messages and services with any dependencies listed here
-generate_messages(
-  DEPENDENCIES
-  std_msgs
-)
+#generate_messages(
+#  DEPENDENCIES
+#  std_msgs
+#)
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -117,6 +129,9 @@ catkin_package(
 include_directories(
 # include
   ${catkin_INCLUDE_DIRS}
+  ${Qt4Core_INCLUDE_DIRS}
+  ${Qt4Gui_INCLUDE_DIRS}
+  ${Qt4Widgets_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library
@@ -133,7 +148,9 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-add_executable(${PROJECT_NAME}_node src/main.cpp)
+#add_executable(${PROJECT_NAME}_node src/main.cpp)
+add_executable(${PROJECT_NAME} ${QT_SOURCES} ${QT_RESOURCES_CPP} ${QT_FORMS_HPP} ${QT_MOC_HPP})
+
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -146,8 +163,11 @@ add_executable(${PROJECT_NAME}_node src/main.cpp)
 #add_dependencies(lepton_msg_pkg ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-target_link_libraries(${PROJECT_NAME}_node
+target_link_libraries(${PROJECT_NAME}
   ${catkin_LIBRARIES}
+  Qt4::QtCore
+  Qt4::QtGui
+#  Qt4::QtWidgets
 )
 
 #############
@@ -169,6 +189,7 @@ target_link_libraries(${PROJECT_NAME}_node
 # install(TARGETS ${PROJECT_NAME}_node
 #   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 # )
+install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
 ## Mark libraries for installation
 ## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_libraries.html

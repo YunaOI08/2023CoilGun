@@ -7,4 +7,5 @@
 # new environment variables
 
 # modified environment variables
+export PATH="/home/pi/catkin_ws/devel/bin:$PATH"
 export PWD='/home/pi/catkin_ws/build'

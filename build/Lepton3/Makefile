@@ -68,50 +68,6 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -134,6 +90,50 @@ test:
 test/fast: test
 
 .PHONY : test/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,61 +168,61 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Lepton3/CMakeFiles/Lepton3_node.dir/rule:
-	cd /home/pi/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Lepton3/CMakeFiles/Lepton3_node.dir/rule
-.PHONY : Lepton3/CMakeFiles/Lepton3_node.dir/rule
+Lepton3/CMakeFiles/Lepton3.dir/rule:
+	cd /home/pi/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Lepton3/CMakeFiles/Lepton3.dir/rule
+.PHONY : Lepton3/CMakeFiles/Lepton3.dir/rule
 
 # Convenience name for target.
-Lepton3_node: Lepton3/CMakeFiles/Lepton3_node.dir/rule
+Lepton3: Lepton3/CMakeFiles/Lepton3.dir/rule
 
-.PHONY : Lepton3_node
+.PHONY : Lepton3
 
 # fast build rule for target.
-Lepton3_node/fast:
-	cd /home/pi/catkin_ws/build && $(MAKE) -f Lepton3/CMakeFiles/Lepton3_node.dir/build.make Lepton3/CMakeFiles/Lepton3_node.dir/build
-.PHONY : Lepton3_node/fast
+Lepton3/fast:
+	cd /home/pi/catkin_ws/build && $(MAKE) -f Lepton3/CMakeFiles/Lepton3.dir/build.make Lepton3/CMakeFiles/Lepton3.dir/build
+.PHONY : Lepton3/fast
 
 # Convenience name for target.
-Lepton3/CMakeFiles/Lepton3_generate_messages.dir/rule:
-	cd /home/pi/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Lepton3/CMakeFiles/Lepton3_generate_messages.dir/rule
-.PHONY : Lepton3/CMakeFiles/Lepton3_generate_messages.dir/rule
+Lepton3/CMakeFiles/Lepton3_autogen.dir/rule:
+	cd /home/pi/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 Lepton3/CMakeFiles/Lepton3_autogen.dir/rule
+.PHONY : Lepton3/CMakeFiles/Lepton3_autogen.dir/rule
 
 # Convenience name for target.
-Lepton3_generate_messages: Lepton3/CMakeFiles/Lepton3_generate_messages.dir/rule
+Lepton3_autogen: Lepton3/CMakeFiles/Lepton3_autogen.dir/rule
 
-.PHONY : Lepton3_generate_messages
+.PHONY : Lepton3_autogen
 
 # fast build rule for target.
-Lepton3_generate_messages/fast:
-	cd /home/pi/catkin_ws/build && $(MAKE) -f Lepton3/CMakeFiles/Lepton3_generate_messages.dir/build.make Lepton3/CMakeFiles/Lepton3_generate_messages.dir/build
-.PHONY : Lepton3_generate_messages/fast
+Lepton3_autogen/fast:
+	cd /home/pi/catkin_ws/build && $(MAKE) -f Lepton3/CMakeFiles/Lepton3_autogen.dir/build.make Lepton3/CMakeFiles/Lepton3_autogen.dir/build
+.PHONY : Lepton3_autogen/fast
 
-src/main.o: src/main.cpp.o
+Lepton3_autogen/mocs_compilation.o: Lepton3_autogen/mocs_compilation.cpp.o
 
-.PHONY : src/main.o
+.PHONY : Lepton3_autogen/mocs_compilation.o
 
 # target to build an object file
-src/main.cpp.o:
-	cd /home/pi/catkin_ws/build && $(MAKE) -f Lepton3/CMakeFiles/Lepton3_node.dir/build.make Lepton3/CMakeFiles/Lepton3_node.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+Lepton3_autogen/mocs_compilation.cpp.o:
+	cd /home/pi/catkin_ws/build && $(MAKE) -f Lepton3/CMakeFiles/Lepton3.dir/build.make Lepton3/CMakeFiles/Lepton3.dir/Lepton3_autogen/mocs_compilation.cpp.o
+.PHONY : Lepton3_autogen/mocs_compilation.cpp.o
 
-src/main.i: src/main.cpp.i
+Lepton3_autogen/mocs_compilation.i: Lepton3_autogen/mocs_compilation.cpp.i
 
-.PHONY : src/main.i
+.PHONY : Lepton3_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	cd /home/pi/catkin_ws/build && $(MAKE) -f Lepton3/CMakeFiles/Lepton3_node.dir/build.make Lepton3/CMakeFiles/Lepton3_node.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+Lepton3_autogen/mocs_compilation.cpp.i:
+	cd /home/pi/catkin_ws/build && $(MAKE) -f Lepton3/CMakeFiles/Lepton3.dir/build.make Lepton3/CMakeFiles/Lepton3.dir/Lepton3_autogen/mocs_compilation.cpp.i
+.PHONY : Lepton3_autogen/mocs_compilation.cpp.i
 
-src/main.s: src/main.cpp.s
+Lepton3_autogen/mocs_compilation.s: Lepton3_autogen/mocs_compilation.cpp.s
 
-.PHONY : src/main.s
+.PHONY : Lepton3_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	cd /home/pi/catkin_ws/build && $(MAKE) -f Lepton3/CMakeFiles/Lepton3_node.dir/build.make Lepton3/CMakeFiles/Lepton3_node.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+Lepton3_autogen/mocs_compilation.cpp.s:
+	cd /home/pi/catkin_ws/build && $(MAKE) -f Lepton3/CMakeFiles/Lepton3.dir/build.make Lepton3/CMakeFiles/Lepton3.dir/Lepton3_autogen/mocs_compilation.cpp.s
+.PHONY : Lepton3_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -231,17 +231,17 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... install"
-	@echo "... Lepton3_node"
-	@echo "... rebuild_cache"
-	@echo "... list_install_components"
-	@echo "... Lepton3_generate_messages"
-	@echo "... edit_cache"
 	@echo "... install/local"
 	@echo "... test"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... install"
+	@echo "... edit_cache"
+	@echo "... Lepton3"
+	@echo "... rebuild_cache"
+	@echo "... list_install_components"
+	@echo "... Lepton3_autogen"
+	@echo "... Lepton3_autogen/mocs_compilation.o"
+	@echo "... Lepton3_autogen/mocs_compilation.i"
+	@echo "... Lepton3_autogen/mocs_compilation.s"
 .PHONY : help
 
 

@@ -214,7 +214,7 @@ foreach(depend ${depends})
   _list_append_deduplicate(Lepton3_EXPORTED_TARGETS ${${Lepton3_dep}_EXPORTED_TARGETS})
 endforeach()
 
-set(pkg_cfg_extras "Lepton3-msg-extras.cmake")
+set(pkg_cfg_extras "")
 foreach(extra ${pkg_cfg_extras})
   if(NOT IS_ABSOLUTE ${extra})
     set(extra ${Lepton3_DIR}/${extra})

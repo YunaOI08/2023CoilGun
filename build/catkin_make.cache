@@ -1,2 +1,2 @@
-Lepton3:lepton_msg_pkg
+Lepton3:lepton_msg_pkg:qt/qt_build:qt/qt_create:qt/qt_ros
 -DCATKIN_DEVEL_PREFIX=/home/pi/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/pi/catkin_ws/install -G Unix Makefiles
