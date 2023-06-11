@@ -6,8 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/catkin_ws/build/Lepton3/Lepton3_autogen/mocs_compilation.cpp
-
 /home/pi/catkin_ws/src/Lepton3/src/LeptonThread.h
 ctime
 -

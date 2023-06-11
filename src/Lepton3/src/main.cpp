@@ -42,7 +42,7 @@ void printUsage(char *cmd) {
 
 int main( int argc, char **argv )
 {
-	ros::init(argc, argc, "lepton_pub")
+	ros::init(argc, argv, "lepton_pub");
 	int typeColormap = 3; // colormap_ironblack
 	int typeLepton = 3; // Lepton 2.x
 	int spiSpeed = 20; // SPI bus speed 20MHz

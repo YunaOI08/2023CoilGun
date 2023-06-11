@@ -48,6 +48,7 @@ add_executable(${PROJECT_NAME} src/main.cpp)
 
 ## Specify libraries to link a library or executable target against
 target_link_libraries(${PROJECT_NAME}
+  include
   ${catkin_LIBRARIES}
   ${QT_LIBRARIES}
   Qt4::QtCore
