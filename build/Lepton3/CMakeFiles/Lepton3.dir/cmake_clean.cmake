@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "/home/pi/catkin_ws/devel/lib/Lepton3/Lepton3"
   "/home/pi/catkin_ws/devel/lib/Lepton3/Lepton3.pdb"
   "CMakeFiles/Lepton3.dir/Lepton3_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/Lepton3.dir/src/main.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

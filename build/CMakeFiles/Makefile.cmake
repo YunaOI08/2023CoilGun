@@ -195,6 +195,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.16/Modules/Platform/UnixPaths.cmake"
   "/usr/share/cmake-3.16/Modules/Qt4ConfigDependentSettings.cmake"
   "/usr/share/cmake-3.16/Modules/Qt4Macros.cmake"
+  "/usr/share/cmake-3.16/Modules/UseQt4.cmake"
   "/usr/src/googletest/CMakeLists.txt"
   "/usr/src/googletest/googlemock/CMakeLists.txt"
   "/usr/src/googletest/googletest/CMakeLists.txt"

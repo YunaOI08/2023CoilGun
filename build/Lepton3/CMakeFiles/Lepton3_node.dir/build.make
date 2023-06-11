@@ -57,9 +57,22 @@ include Lepton3/CMakeFiles/Lepton3_node.dir/progress.make
 # Include the compile flags for this target's objects.
 include Lepton3/CMakeFiles/Lepton3_node.dir/flags.make
 
+Lepton3/CMakeFiles/Lepton3_node.dir/Lepton3_node_autogen/mocs_compilation.cpp.o: Lepton3/CMakeFiles/Lepton3_node.dir/flags.make
+Lepton3/CMakeFiles/Lepton3_node.dir/Lepton3_node_autogen/mocs_compilation.cpp.o: Lepton3/Lepton3_node_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Lepton3/CMakeFiles/Lepton3_node.dir/Lepton3_node_autogen/mocs_compilation.cpp.o"
+	cd /home/pi/catkin_ws/build/Lepton3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lepton3_node.dir/Lepton3_node_autogen/mocs_compilation.cpp.o -c /home/pi/catkin_ws/build/Lepton3/Lepton3_node_autogen/mocs_compilation.cpp
+
+Lepton3/CMakeFiles/Lepton3_node.dir/Lepton3_node_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lepton3_node.dir/Lepton3_node_autogen/mocs_compilation.cpp.i"
+	cd /home/pi/catkin_ws/build/Lepton3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/catkin_ws/build/Lepton3/Lepton3_node_autogen/mocs_compilation.cpp > CMakeFiles/Lepton3_node.dir/Lepton3_node_autogen/mocs_compilation.cpp.i
+
+Lepton3/CMakeFiles/Lepton3_node.dir/Lepton3_node_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lepton3_node.dir/Lepton3_node_autogen/mocs_compilation.cpp.s"
+	cd /home/pi/catkin_ws/build/Lepton3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/catkin_ws/build/Lepton3/Lepton3_node_autogen/mocs_compilation.cpp -o CMakeFiles/Lepton3_node.dir/Lepton3_node_autogen/mocs_compilation.cpp.s
+
 Lepton3/CMakeFiles/Lepton3_node.dir/src/main.cpp.o: Lepton3/CMakeFiles/Lepton3_node.dir/flags.make
 Lepton3/CMakeFiles/Lepton3_node.dir/src/main.cpp.o: /home/pi/catkin_ws/src/Lepton3/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Lepton3/CMakeFiles/Lepton3_node.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Lepton3/CMakeFiles/Lepton3_node.dir/src/main.cpp.o"
 	cd /home/pi/catkin_ws/build/Lepton3 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lepton3_node.dir/src/main.cpp.o -c /home/pi/catkin_ws/src/Lepton3/src/main.cpp
 
 Lepton3/CMakeFiles/Lepton3_node.dir/src/main.cpp.i: cmake_force
@@ -72,32 +85,17 @@ Lepton3/CMakeFiles/Lepton3_node.dir/src/main.cpp.s: cmake_force
 
 # Object files for target Lepton3_node
 Lepton3_node_OBJECTS = \
+"CMakeFiles/Lepton3_node.dir/Lepton3_node_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/Lepton3_node.dir/src/main.cpp.o"
 
 # External object files for target Lepton3_node
 Lepton3_node_EXTERNAL_OBJECTS =
 
+/home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: Lepton3/CMakeFiles/Lepton3_node.dir/Lepton3_node_autogen/mocs_compilation.cpp.o
 /home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: Lepton3/CMakeFiles/Lepton3_node.dir/src/main.cpp.o
 /home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: Lepton3/CMakeFiles/Lepton3_node.dir/build.make
-/home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: /opt/ros/noetic/lib/libroscpp.so
-/home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: /usr/lib/arm-linux-gnueabihf/libboost_filesystem.so
-/home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: /opt/ros/noetic/lib/librosconsole.so
-/home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: /usr/lib/arm-linux-gnueabihf/liblog4cxx.so
-/home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: /usr/lib/arm-linux-gnueabihf/libboost_regex.so
-/home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: /opt/ros/noetic/lib/librostime.so
-/home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: /opt/ros/noetic/lib/libcpp_common.so
-/home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: /usr/lib/arm-linux-gnueabihf/libboost_system.so
-/home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: /usr/lib/arm-linux-gnueabihf/libboost_thread.so
-/home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: /usr/lib/arm-linux-gnueabihf/libboost_chrono.so
-/home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: /usr/lib/arm-linux-gnueabihf/libboost_date_time.so
-/home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: /usr/lib/arm-linux-gnueabihf/libboost_atomic.so
-/home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: /usr/lib/arm-linux-gnueabihf/libconsole_bridge.so.0.4
 /home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node: Lepton3/CMakeFiles/Lepton3_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/pi/catkin_ws/devel/lib/Lepton3/Lepton3_node"
 	cd /home/pi/catkin_ws/build/Lepton3 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lepton3_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

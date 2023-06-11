@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_832c5/fast && /usr/bin/make -f CMakeFiles/cmTC_832c5.dir/build.make CMakeFiles/cmTC_832c5.dir/build
+Run Build Command(s):/usr/bin/make cmTC_cdcc9/fast && /usr/bin/make -f CMakeFiles/cmTC_cdcc9.dir/build.make CMakeFiles/cmTC_cdcc9.dir/build
 make[1]: Entering directory '/home/pi/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_832c5.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_832c5.dir/src.c.o   -c /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_832c5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_832c5.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_832c5.dir/src.c.o  -o cmTC_832c5 
-/usr/bin/ld: CMakeFiles/cmTC_832c5.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_cdcc9.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_cdcc9.dir/src.c.o   -c /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cdcc9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdcc9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_cdcc9.dir/src.c.o  -o cmTC_cdcc9 
+/usr/bin/ld: CMakeFiles/cmTC_cdcc9.dir/src.c.o: in function `main':
 src.c:(.text+0x40): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x4c): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x5c): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_832c5.dir/build.make:87: cmTC_832c5] Error 1
+make[1]: *** [CMakeFiles/cmTC_cdcc9.dir/build.make:87: cmTC_cdcc9] Error 1
 make[1]: Leaving directory '/home/pi/catkin_ws/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_832c5/fast] Error 2
+make: *** [Makefile:121: cmTC_cdcc9/fast] Error 2
 
 
 Source file was:
@@ -41,28 +41,28 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_64f8c/fast && /usr/bin/make -f CMakeFiles/cmTC_64f8c.dir/build.make CMakeFiles/cmTC_64f8c.dir/build
+Run Build Command(s):/usr/bin/make cmTC_56ed0/fast && /usr/bin/make -f CMakeFiles/cmTC_56ed0.dir/build.make CMakeFiles/cmTC_56ed0.dir/build
 make[1]: Entering directory '/home/pi/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_64f8c.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_64f8c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_64f8c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64f8c.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_64f8c.dir/CheckFunctionExists.c.o  -o cmTC_64f8c  -lpthreads 
+Building C object CMakeFiles/cmTC_56ed0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_56ed0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_56ed0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56ed0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_56ed0.dir/CheckFunctionExists.c.o  -o cmTC_56ed0  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_64f8c.dir/build.make:87: cmTC_64f8c] Error 1
+make[1]: *** [CMakeFiles/cmTC_56ed0.dir/build.make:87: cmTC_56ed0] Error 1
 make[1]: Leaving directory '/home/pi/catkin_ws/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_64f8c/fast] Error 2
+make: *** [Makefile:121: cmTC_56ed0/fast] Error 2
 
 
 
 Determining if the Q_WS_WIN exist failed with the following output:
 Change Dir: /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_53bd5/fast && /usr/bin/make -f CMakeFiles/cmTC_53bd5.dir/build.make CMakeFiles/cmTC_53bd5.dir/build
+Run Build Command(s):/usr/bin/make cmTC_454e0/fast && /usr/bin/make -f CMakeFiles/cmTC_454e0.dir/build.make CMakeFiles/cmTC_454e0.dir/build
 make[1]: Entering directory '/home/pi/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_53bd5.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_53bd5.dir/CheckSymbolExists.cxx.o -c /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Building CXX object CMakeFiles/cmTC_454e0.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_454e0.dir/CheckSymbolExists.cxx.o -c /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
 /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
 /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
    return ((int*)(&Q_WS_WIN))[argc];
@@ -71,9 +71,9 @@ Building CXX object CMakeFiles/cmTC_53bd5.dir/CheckSymbolExists.cxx.o
    return ((int*)(&Q_WS_WIN))[argc];
                    ^~~~~~~~
                    Q_WS_X11
-make[1]: *** [CMakeFiles/cmTC_53bd5.dir/build.make:66: CMakeFiles/cmTC_53bd5.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: *** [CMakeFiles/cmTC_454e0.dir/build.make:66: CMakeFiles/cmTC_454e0.dir/CheckSymbolExists.cxx.o] Error 1
 make[1]: Leaving directory '/home/pi/catkin_ws/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_53bd5/fast] Error 2
+make: *** [Makefile:121: cmTC_454e0/fast] Error 2
 
 
 File /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
@@ -93,10 +93,10 @@ int main(int argc, char** argv)
 Determining if the Q_WS_QWS exist failed with the following output:
 Change Dir: /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_accf7/fast && /usr/bin/make -f CMakeFiles/cmTC_accf7.dir/build.make CMakeFiles/cmTC_accf7.dir/build
+Run Build Command(s):/usr/bin/make cmTC_76467/fast && /usr/bin/make -f CMakeFiles/cmTC_76467.dir/build.make CMakeFiles/cmTC_76467.dir/build
 make[1]: Entering directory '/home/pi/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_accf7.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_accf7.dir/CheckSymbolExists.cxx.o -c /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Building CXX object CMakeFiles/cmTC_76467.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_76467.dir/CheckSymbolExists.cxx.o -c /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
 /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
 /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
    return ((int*)(&Q_WS_QWS))[argc];
@@ -105,9 +105,9 @@ Building CXX object CMakeFiles/cmTC_accf7.dir/CheckSymbolExists.cxx.o
    return ((int*)(&Q_WS_QWS))[argc];
                    ^~~~~~~~
                    Q_WS_X11
-make[1]: *** [CMakeFiles/cmTC_accf7.dir/build.make:66: CMakeFiles/cmTC_accf7.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: *** [CMakeFiles/cmTC_76467.dir/build.make:66: CMakeFiles/cmTC_76467.dir/CheckSymbolExists.cxx.o] Error 1
 make[1]: Leaving directory '/home/pi/catkin_ws/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_accf7/fast] Error 2
+make: *** [Makefile:121: cmTC_76467/fast] Error 2
 
 
 File /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
@@ -127,10 +127,10 @@ int main(int argc, char** argv)
 Determining if the Q_WS_MAC exist failed with the following output:
 Change Dir: /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e6152/fast && /usr/bin/make -f CMakeFiles/cmTC_e6152.dir/build.make CMakeFiles/cmTC_e6152.dir/build
+Run Build Command(s):/usr/bin/make cmTC_3378c/fast && /usr/bin/make -f CMakeFiles/cmTC_3378c.dir/build.make CMakeFiles/cmTC_3378c.dir/build
 make[1]: Entering directory '/home/pi/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e6152.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_e6152.dir/CheckSymbolExists.cxx.o -c /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Building CXX object CMakeFiles/cmTC_3378c.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_3378c.dir/CheckSymbolExists.cxx.o -c /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
 /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
 /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
    return ((int*)(&Q_WS_MAC))[argc];
@@ -139,9 +139,9 @@ Building CXX object CMakeFiles/cmTC_e6152.dir/CheckSymbolExists.cxx.o
    return ((int*)(&Q_WS_MAC))[argc];
                    ^~~~~~~~
                    Q_WS_X11
-make[1]: *** [CMakeFiles/cmTC_e6152.dir/build.make:66: CMakeFiles/cmTC_e6152.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: *** [CMakeFiles/cmTC_3378c.dir/build.make:66: CMakeFiles/cmTC_3378c.dir/CheckSymbolExists.cxx.o] Error 1
 make[1]: Leaving directory '/home/pi/catkin_ws/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_e6152/fast] Error 2
+make: *** [Makefile:121: cmTC_3378c/fast] Error 2
 
 
 File /home/pi/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:

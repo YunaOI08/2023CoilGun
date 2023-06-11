@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/pi/catkin_ws/build/Lepton3/Lepton3_node_autogen/mocs_compilation.cpp" "/home/pi/catkin_ws/build/Lepton3/CMakeFiles/Lepton3_node.dir/Lepton3_node_autogen/mocs_compilation.cpp.o"
   "/home/pi/catkin_ws/src/Lepton3/src/main.cpp" "/home/pi/catkin_ws/build/Lepton3/CMakeFiles/Lepton3_node.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
@@ -17,6 +18,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "Lepton3"
+  "/home/pi/catkin_ws/src/Lepton3"
+  "Lepton3/Lepton3_node_autogen/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )
