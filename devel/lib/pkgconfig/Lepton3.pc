@@ -1,8 +1,0 @@
-prefix=/home/pi/catkin_ws/devel
-
-Name: Lepton3
-Description: Description of Lepton3
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: lepton_msg_pkg roscpp rospy std_msgs
