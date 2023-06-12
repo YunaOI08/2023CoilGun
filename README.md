@@ -73,4 +73,5 @@ sudo apt-get install qt4-dev-tools
 
 ## Reference
 [1] [How to Install ROS Noetic on Raspberry Pi 4 - VarHowto](https://varhowto.com/install-ros-noetic-raspberry-pi-4/)
+
 [2] https://github.com/groupgets/LeptonModule/tree/master/software/raspberrypi_video
