@@ -61,3 +61,14 @@ rosinstall_generator ros_comm rosserial_arduino --rosdistro indigo --deps --wet-
 wstool merge -t src indigo-ros_comm-wet.rosinstall
 wstool update -t src
 ```
+
+## Lepton3 사용을 위한 환경설정 및 qt4 설치
+1. First enable the SPI and I2C interfaces on the Pi.
+```bash
+sudo raspi-config
+```
+
+2. Install the 'qt4-dev-tools' package, which allows compiling of QT applications.
+```bash
+sudo apt-get install qt4-dev-tools
+```
