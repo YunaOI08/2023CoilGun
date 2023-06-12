@@ -7,8 +7,6 @@ ros version : noetic
 
 ## Debian buster 환경에 ros noetic 설치
 
-[How to Install ROS Noetic on Raspberry Pi 4 - VarHowto](https://varhowto.com/install-ros-noetic-raspberry-pi-4/)
-
 ```bash
 # 1. Set up ROS Noetic repo
 # Run this echo command to add the official ROS Noetic repo to source list:
@@ -72,3 +70,7 @@ sudo raspi-config
 ```bash
 sudo apt-get install qt4-dev-tools
 ```
+
+## Reference
+[1] [How to Install ROS Noetic on Raspberry Pi 4 - VarHowto](https://varhowto.com/install-ros-noetic-raspberry-pi-4/)
+[2] https://github.com/groupgets/LeptonModule/tree/master/software/raspberrypi_video
