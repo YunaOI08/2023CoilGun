@@ -1,0 +1,8 @@
+prefix=/home/pi/catkin_ws/devel
+
+Name: roslang
+Description: Description of roslang
+Version: 1.15.8
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
