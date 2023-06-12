@@ -71,6 +71,12 @@ sudo raspi-config
 sudo apt-get install qt4-dev-tools
 ```
 
+## 실행 방법
+```bash
+cd ~/2023CoilGun && catkin_make
+rosrun Lepton3 lepton_pub
+
+
 ## Reference
 [1] [How to Install ROS Noetic on Raspberry Pi 4 - VarHowto](https://varhowto.com/install-ros-noetic-raspberry-pi-4/)
 
