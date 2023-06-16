@@ -1,0 +1,50 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~show_thermal_image" : \b [bool]  min: False, default: False, max: True
+- \b "~detection_method" : \b [int] 0 for binary image-1 for sensor/Image min: 0, default: 0, max: 1
+- \b "~low_temperature" : \b [double] Used when detection method is 0 min: 20.0, default: 27.0, max: 80.0
+- \b "~high_temperature" : \b [double] Used when detection method is 0 min: 20.0, default: 70.0, max: 80.0
+- \b "~edge_detection_method" : \b [int]  min: 0, default: 0, max: 4
+- \b "~canny_ratio" : \b [int]  min: 0, default: 3, max: 10
+- \b "~canny_kernel_size" : \b [int]  min: 1, default: 3, max: 10
+- \b "~canny_low_threshold" : \b [int]  min: 1, default: 10, max: 255
+- \b "~canny_blur_noise_kernel_size" : \b [int]  min: 1, default: 3, max: 10
+- \b "~contrast_enhance_beta" : \b [int]  min: 1, default: 2, max: 10
+- \b "~contrast_enhance_alpha" : \b [int]  min: 1, default: 2, max: 10
+- \b "~denoised_edges_threshold" : \b [int]  min: 0, default: 130, max: 255
+- \b "~min_threshold" : \b [int]  min: 0, default: 0, max: 5000
+- \b "~max_threshold" : \b [int]  min: 0, default: 200, max: 5000
+- \b "~threshold_step" : \b [int]  min: 1, default: 100, max: 100
+- \b "~min_area" : \b [int]  min: 1, default: 100, max: 1000000
+- \b "~max_area" : \b [int]  min: 1, default: 181000, max: 302700
+- \b "~min_convexity" : \b [double]  min: 0.0, default: 0.0, max: 100.0
+- \b "~max_convexity" : \b [double]  min: 0.0, default: 100.0, max: 100.0
+- \b "~min_inertia_ratio" : \b [double]  min: 0.0, default: 0.0, max: 100.0
+- \b "~max_circularity" : \b [double]  min: 0.0, default: 1.0, max: 1.0
+- \b "~min_circularity" : \b [double]  min: 0.0, default: 0.0, max: 1.0
+- \b "~filter_by_color" : \b [bool]  min: False, default: False, max: True
+- \b "~filter_by_circularity" : \b [bool]  min: False, default: True, max: True
+- \b "~outline_detection_method" : \b [int]  min: 0, default: 0, max: 1
+- \b "~raycast_keypoint_partitions" : \b [int]  min: 0, default: 32, max: 128
+- \b "~AB_to_MO_ratio" : \b [int]  min: 0, default: 4, max: 10
+- \b "~minimum_curve_points" : \b [int]  min: 0, default: 50, max: 1000
+- \b "~scale_method" : \b [int]  min: 0, default: 0, max: 1
+- \b "~show_find_rois" : \b [bool]  min: False, default: False, max: True
+- \b "~show_find_rois_size" : \b [int]  min: 0, default: 1200, max: 3000
+- \b "~show_denoise_edges" : \b [bool]  min: False, default: False, max: True
+- \b "~show_denoise_edges_size" : \b [int]  min: 0, default: 1200, max: 3000
+- \b "~show_connect_pairs" : \b [bool]  min: False, default: False, max: True
+- \b "~show_connect_pairs_size" : \b [int]  min: 0, default: 1200, max: 3000
+- \b "~show_get_shapes_clear_border" : \b [bool]  min: False, default: False, max: True
+- \b "~show_get_shapes_clear_border_size" : \b [int]  min: 0, default: 1200, max: 3000
+- \b "~probability_method" : \b [int]  min: 0, default: 1, max: 1
+- \b "~min_thermal_probability" : \b [double] Min thermal's probabability min: 0.0, default: 0.2, max: 1.0
+- \b "~optimal_temperature" : \b [double] Gaussian_Probability min: 20.0, default: 37.0, max: 50.0
+- \b "~tolerance" : \b [double] Gaussian_Probability min: 0.0, default: 10.0, max: 25.0
+- \b "~low_acceptable_temperature" : \b [double] Logistic_Probability min: 20.0, default: 27.0, max: 80.0
+- \b "~high_acceptable_temperature" : \b [double] Logistic_Probability min: 20.0, default: 70.0, max: 80.0
+- \b "~left_tolerance" : \b [double] Logistic_Probability- Big value means small tolerance min: 1.0, default: 4.0, max: 10.0
+- \b "~right_tolerance" : \b [double] Logistic_Probability- Big value means small tolerance min: 1.0, default: 8.0, max: 10.0
+

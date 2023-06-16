@@ -1,0 +1,51 @@
+\subsubsection usage Usage
+\verbatim
+<node name="flir_lepton_image_processing" pkg="flir_lepton_image_processing" type="flir_lepton_image_processing">
+  <param name="show_thermal_image" type="bool" value="False" />
+  <param name="detection_method" type="int" value="0" />
+  <param name="low_temperature" type="double" value="27.0" />
+  <param name="high_temperature" type="double" value="70.0" />
+  <param name="edge_detection_method" type="int" value="0" />
+  <param name="canny_ratio" type="int" value="3" />
+  <param name="canny_kernel_size" type="int" value="3" />
+  <param name="canny_low_threshold" type="int" value="10" />
+  <param name="canny_blur_noise_kernel_size" type="int" value="3" />
+  <param name="contrast_enhance_beta" type="int" value="2" />
+  <param name="contrast_enhance_alpha" type="int" value="2" />
+  <param name="denoised_edges_threshold" type="int" value="130" />
+  <param name="min_threshold" type="int" value="0" />
+  <param name="max_threshold" type="int" value="200" />
+  <param name="threshold_step" type="int" value="100" />
+  <param name="min_area" type="int" value="100" />
+  <param name="max_area" type="int" value="181000" />
+  <param name="min_convexity" type="double" value="0.0" />
+  <param name="max_convexity" type="double" value="100.0" />
+  <param name="min_inertia_ratio" type="double" value="0.0" />
+  <param name="max_circularity" type="double" value="1.0" />
+  <param name="min_circularity" type="double" value="0.0" />
+  <param name="filter_by_color" type="bool" value="False" />
+  <param name="filter_by_circularity" type="bool" value="True" />
+  <param name="outline_detection_method" type="int" value="0" />
+  <param name="raycast_keypoint_partitions" type="int" value="32" />
+  <param name="AB_to_MO_ratio" type="int" value="4" />
+  <param name="minimum_curve_points" type="int" value="50" />
+  <param name="scale_method" type="int" value="0" />
+  <param name="show_find_rois" type="bool" value="False" />
+  <param name="show_find_rois_size" type="int" value="1200" />
+  <param name="show_denoise_edges" type="bool" value="False" />
+  <param name="show_denoise_edges_size" type="int" value="1200" />
+  <param name="show_connect_pairs" type="bool" value="False" />
+  <param name="show_connect_pairs_size" type="int" value="1200" />
+  <param name="show_get_shapes_clear_border" type="bool" value="False" />
+  <param name="show_get_shapes_clear_border_size" type="int" value="1200" />
+  <param name="probability_method" type="int" value="1" />
+  <param name="min_thermal_probability" type="double" value="0.2" />
+  <param name="optimal_temperature" type="double" value="37.0" />
+  <param name="tolerance" type="double" value="10.0" />
+  <param name="low_acceptable_temperature" type="double" value="27.0" />
+  <param name="high_acceptable_temperature" type="double" value="70.0" />
+  <param name="left_tolerance" type="double" value="4.0" />
+  <param name="right_tolerance" type="double" value="8.0" />
+</node>
+\endverbatim
+

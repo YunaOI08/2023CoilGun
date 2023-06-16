@@ -1,0 +1,8 @@
+prefix=/home/pi/catkin_ws/devel
+
+Name: rosservice
+Description: Description of rosservice
+Version: 1.16.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
