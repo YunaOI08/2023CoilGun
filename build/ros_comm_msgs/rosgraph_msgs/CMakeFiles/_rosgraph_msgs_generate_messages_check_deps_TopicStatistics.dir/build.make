@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/catkin_ws/build
 include ros_comm_msgs/rosgraph_msgs/CMakeFiles/_rosgraph_msgs_generate_messages_check_deps_TopicStatistics.dir/progress.make
 
 ros_comm_msgs/rosgraph_msgs/CMakeFiles/_rosgraph_msgs_generate_messages_check_deps_TopicStatistics:
-	cd /home/pi/catkin_ws/build/ros_comm_msgs/rosgraph_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py rosgraph_msgs /home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg/TopicStatistics.msg 
+	cd /home/pi/catkin_ws/build/ros_comm_msgs/rosgraph_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py rosgraph_msgs /home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg/TopicStatistics.msg 
 
 _rosgraph_msgs_generate_messages_check_deps_TopicStatistics: ros_comm_msgs/rosgraph_msgs/CMakeFiles/_rosgraph_msgs_generate_messages_check_deps_TopicStatistics
 _rosgraph_msgs_generate_messages_check_deps_TopicStatistics: ros_comm_msgs/rosgraph_msgs/CMakeFiles/_rosgraph_msgs_generate_messages_check_deps_TopicStatistics.dir/build.make

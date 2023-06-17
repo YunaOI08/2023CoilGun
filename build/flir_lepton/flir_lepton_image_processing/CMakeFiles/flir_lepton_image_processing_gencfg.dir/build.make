@@ -58,10 +58,10 @@ flir_lepton/flir_lepton_image_processing/CMakeFiles/flir_lepton_image_processing
 
 
 /home/pi/catkin_ws/devel/include/flir_lepton_image_processing/thermal_cfgConfig.h: /home/pi/catkin_ws/src/flir_lepton/flir_lepton_image_processing/cfg/thermal_cfg.cfg
-/home/pi/catkin_ws/devel/include/flir_lepton_image_processing/thermal_cfgConfig.h: /home/pi/catkin_ws/src/dynamic_reconfigure/templates/ConfigType.py.template
-/home/pi/catkin_ws/devel/include/flir_lepton_image_processing/thermal_cfgConfig.h: /home/pi/catkin_ws/src/dynamic_reconfigure/templates/ConfigType.h.template
+/home/pi/catkin_ws/devel/include/flir_lepton_image_processing/thermal_cfgConfig.h: /home/pi/catkin_ws/install/share/dynamic_reconfigure/templates/ConfigType.py.template
+/home/pi/catkin_ws/devel/include/flir_lepton_image_processing/thermal_cfgConfig.h: /home/pi/catkin_ws/install/share/dynamic_reconfigure/templates/ConfigType.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/thermal_cfg.cfg: /home/pi/catkin_ws/devel/include/flir_lepton_image_processing/thermal_cfgConfig.h /home/pi/catkin_ws/devel/lib/python3/dist-packages/flir_lepton_image_processing/cfg/thermal_cfgConfig.py"
-	cd /home/pi/catkin_ws/build/flir_lepton/flir_lepton_image_processing && ../../catkin_generated/env_cached.sh /home/pi/catkin_ws/build/flir_lepton/flir_lepton_image_processing/setup_custom_pythonpath.sh /home/pi/catkin_ws/src/flir_lepton/flir_lepton_image_processing/cfg/thermal_cfg.cfg /home/pi/catkin_ws/src/dynamic_reconfigure /home/pi/catkin_ws/devel/share/flir_lepton_image_processing /home/pi/catkin_ws/devel/include/flir_lepton_image_processing /home/pi/catkin_ws/devel/lib/python3/dist-packages/flir_lepton_image_processing
+	cd /home/pi/catkin_ws/build/flir_lepton/flir_lepton_image_processing && ../../catkin_generated/env_cached.sh /home/pi/catkin_ws/build/flir_lepton/flir_lepton_image_processing/setup_custom_pythonpath.sh /home/pi/catkin_ws/src/flir_lepton/flir_lepton_image_processing/cfg/thermal_cfg.cfg /home/pi/catkin_ws/install/share/dynamic_reconfigure/cmake/.. /home/pi/catkin_ws/devel/share/flir_lepton_image_processing /home/pi/catkin_ws/devel/include/flir_lepton_image_processing /home/pi/catkin_ws/devel/lib/python3/dist-packages/flir_lepton_image_processing
 
 /home/pi/catkin_ws/devel/share/flir_lepton_image_processing/docs/thermal_cfgConfig.dox: /home/pi/catkin_ws/devel/include/flir_lepton_image_processing/thermal_cfgConfig.h
 	@$(CMAKE_COMMAND) -E touch_nocreate /home/pi/catkin_ws/devel/share/flir_lepton_image_processing/docs/thermal_cfgConfig.dox

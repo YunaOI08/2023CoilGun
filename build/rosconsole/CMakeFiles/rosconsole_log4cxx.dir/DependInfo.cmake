@@ -19,8 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/pi/catkin_ws/src/rosconsole/include"
-  "/home/pi/catkin_ws/src/roscpp_core/cpp_common/include"
-  "/home/pi/catkin_ws/src/roscpp_core/rostime/include"
+  "/home/pi/catkin_ws/install/include"
   )
 
 # Targets to which this target links.

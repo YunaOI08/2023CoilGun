@@ -2,7 +2,7 @@
 
 message(STATUS "rosgraph_msgs: 3 messages, 0 services")
 
-set(MSG_I_FLAGS "-Irosgraph_msgs:/home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg;-Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg")
+set(MSG_I_FLAGS "-Irosgraph_msgs:/home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg;-Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -47,7 +47,7 @@ _generate_msg_cpp(rosgraph_msgs
 _generate_msg_cpp(rosgraph_msgs
   "/home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg/Log.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg"
+  "/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/rosgraph_msgs
 )
 _generate_msg_cpp(rosgraph_msgs
@@ -96,7 +96,7 @@ _generate_msg_eus(rosgraph_msgs
 _generate_msg_eus(rosgraph_msgs
   "/home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg/Log.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg"
+  "/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/rosgraph_msgs
 )
 _generate_msg_eus(rosgraph_msgs
@@ -145,7 +145,7 @@ _generate_msg_lisp(rosgraph_msgs
 _generate_msg_lisp(rosgraph_msgs
   "/home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg/Log.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg"
+  "/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/rosgraph_msgs
 )
 _generate_msg_lisp(rosgraph_msgs
@@ -194,7 +194,7 @@ _generate_msg_nodejs(rosgraph_msgs
 _generate_msg_nodejs(rosgraph_msgs
   "/home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg/Log.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg"
+  "/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/rosgraph_msgs
 )
 _generate_msg_nodejs(rosgraph_msgs
@@ -243,7 +243,7 @@ _generate_msg_py(rosgraph_msgs
 _generate_msg_py(rosgraph_msgs
   "/home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg/Log.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg"
+  "/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/rosgraph_msgs
 )
 _generate_msg_py(rosgraph_msgs

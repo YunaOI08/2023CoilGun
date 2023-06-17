@@ -1,0 +1,2 @@
+set(flir_lepton_msgs_MESSAGE_FILES "msg/flir_lepton_sensor/TemperaturesMsg.msg;msg/flir_lepton_sensor/FlirLeptonBatchMsg.msg;msg/flir_lepton_sensor/FlirLeptonRawMsg.msg;msg/flir_lepton_image_processing/CandidateRoiMsg.msg;msg/flir_lepton_image_processing/CandidateRoisVectorMsg.msg;msg/flir_lepton_image_processing/GeneralAlertInfo.msg;msg/flir_lepton_image_processing/ThermalAlert.msg;msg/flir_lepton_image_processing/ThermalAlertVector.msg")
+set(flir_lepton_msgs_SERVICE_FILES "")

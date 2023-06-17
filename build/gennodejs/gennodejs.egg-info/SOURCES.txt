@@ -1,0 +1,5 @@
+README.md
+setup.py
+src/gennodejs/__init__.py
+src/gennodejs/generate.py
+src/gennodejs/gennodejs_main.py

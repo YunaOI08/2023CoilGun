@@ -20,8 +20,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/pi/catkin_ws/src/ros_comm/xmlrpcpp/include"
   "/home/pi/catkin_ws/src/ros_comm/xmlrpcpp/libb64/include"
-  "/home/pi/catkin_ws/src/roscpp_core/cpp_common/include"
-  "/home/pi/catkin_ws/src/roscpp_core/rostime/include"
+  "/home/pi/catkin_ws/install/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pi/catkin_ws/src/ros_comm/xmlrpcpp/src/XmlRpcClient.cpp" "/home/pi/catkin_ws/build/ros_comm/xmlrpcpp/CMakeFiles/xmlrpcpp.dir/src/XmlRpcClient.cpp.o"
@@ -46,8 +45,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/pi/catkin_ws/src/ros_comm/xmlrpcpp/include"
   "/home/pi/catkin_ws/src/ros_comm/xmlrpcpp/libb64/include"
-  "/home/pi/catkin_ws/src/roscpp_core/cpp_common/include"
-  "/home/pi/catkin_ws/src/roscpp_core/rostime/include"
+  "/home/pi/catkin_ws/install/include"
   )
 
 # Targets to which this target links.

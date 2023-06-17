@@ -88,192 +88,192 @@ std_msgs/CMakeFiles/std_msgs_generate_messages_eus: /home/pi/catkin_ws/devel/sha
 std_msgs/CMakeFiles/std_msgs_generate_messages_eus: /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/manifest.l
 
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Bool.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Bool.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Bool.l: /home/pi/catkin_ws/src/std_msgs/msg/Bool.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from std_msgs/Bool.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Bool.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Bool.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Byte.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Byte.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Byte.l: /home/pi/catkin_ws/src/std_msgs/msg/Byte.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from std_msgs/Byte.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Byte.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Byte.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/ByteMultiArray.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/ByteMultiArray.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/ByteMultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/ByteMultiArray.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/ByteMultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayDimension.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/ByteMultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayLayout.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from std_msgs/ByteMultiArray.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/ByteMultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/ByteMultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Char.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Char.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Char.l: /home/pi/catkin_ws/src/std_msgs/msg/Char.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from std_msgs/Char.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Char.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Char.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/ColorRGBA.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/ColorRGBA.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/ColorRGBA.l: /home/pi/catkin_ws/src/std_msgs/msg/ColorRGBA.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from std_msgs/ColorRGBA.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/ColorRGBA.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/ColorRGBA.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Duration.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Duration.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Duration.l: /home/pi/catkin_ws/src/std_msgs/msg/Duration.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating EusLisp code from std_msgs/Duration.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Duration.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Duration.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Empty.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Empty.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Empty.l: /home/pi/catkin_ws/src/std_msgs/msg/Empty.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating EusLisp code from std_msgs/Empty.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Empty.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Empty.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Float32.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Float32.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Float32.l: /home/pi/catkin_ws/src/std_msgs/msg/Float32.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating EusLisp code from std_msgs/Float32.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Float32.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Float32.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Float32MultiArray.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Float32MultiArray.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Float32MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/Float32MultiArray.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Float32MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayDimension.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Float32MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayLayout.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating EusLisp code from std_msgs/Float32MultiArray.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Float32MultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Float32MultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Float64.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Float64.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Float64.l: /home/pi/catkin_ws/src/std_msgs/msg/Float64.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating EusLisp code from std_msgs/Float64.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Float64.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Float64.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Float64MultiArray.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Float64MultiArray.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Float64MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/Float64MultiArray.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Float64MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayDimension.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Float64MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayLayout.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating EusLisp code from std_msgs/Float64MultiArray.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Float64MultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Float64MultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Header.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Header.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Header.l: /home/pi/catkin_ws/src/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating EusLisp code from std_msgs/Header.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Header.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Header.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int16.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int16.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int16.l: /home/pi/catkin_ws/src/std_msgs/msg/Int16.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating EusLisp code from std_msgs/Int16.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Int16.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Int16.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int16MultiArray.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int16MultiArray.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int16MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/Int16MultiArray.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int16MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayDimension.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int16MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayLayout.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating EusLisp code from std_msgs/Int16MultiArray.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Int16MultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Int16MultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int32.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int32.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int32.l: /home/pi/catkin_ws/src/std_msgs/msg/Int32.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating EusLisp code from std_msgs/Int32.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Int32.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Int32.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int32MultiArray.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int32MultiArray.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int32MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/Int32MultiArray.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int32MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayDimension.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int32MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayLayout.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating EusLisp code from std_msgs/Int32MultiArray.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Int32MultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Int32MultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int64.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int64.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int64.l: /home/pi/catkin_ws/src/std_msgs/msg/Int64.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating EusLisp code from std_msgs/Int64.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Int64.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Int64.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int64MultiArray.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int64MultiArray.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int64MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/Int64MultiArray.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int64MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayDimension.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int64MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayLayout.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating EusLisp code from std_msgs/Int64MultiArray.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Int64MultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Int64MultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int8.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int8.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int8.l: /home/pi/catkin_ws/src/std_msgs/msg/Int8.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating EusLisp code from std_msgs/Int8.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Int8.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Int8.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int8MultiArray.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int8MultiArray.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int8MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/Int8MultiArray.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int8MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayDimension.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Int8MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayLayout.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating EusLisp code from std_msgs/Int8MultiArray.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Int8MultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Int8MultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/MultiArrayDimension.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/MultiArrayDimension.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/MultiArrayDimension.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayDimension.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating EusLisp code from std_msgs/MultiArrayDimension.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayDimension.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayDimension.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/MultiArrayLayout.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/MultiArrayLayout.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/MultiArrayLayout.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayLayout.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/MultiArrayLayout.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayDimension.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating EusLisp code from std_msgs/MultiArrayLayout.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayLayout.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayLayout.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/String.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/String.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/String.l: /home/pi/catkin_ws/src/std_msgs/msg/String.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating EusLisp code from std_msgs/String.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/String.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/String.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Time.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Time.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Time.l: /home/pi/catkin_ws/src/std_msgs/msg/Time.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating EusLisp code from std_msgs/Time.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Time.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/Time.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt16.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt16.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt16.l: /home/pi/catkin_ws/src/std_msgs/msg/UInt16.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating EusLisp code from std_msgs/UInt16.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/UInt16.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/UInt16.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt16MultiArray.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt16MultiArray.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt16MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/UInt16MultiArray.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt16MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayDimension.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt16MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayLayout.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating EusLisp code from std_msgs/UInt16MultiArray.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/UInt16MultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/UInt16MultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt32.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt32.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt32.l: /home/pi/catkin_ws/src/std_msgs/msg/UInt32.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating EusLisp code from std_msgs/UInt32.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/UInt32.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/UInt32.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt32MultiArray.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt32MultiArray.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt32MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/UInt32MultiArray.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt32MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayDimension.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt32MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayLayout.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating EusLisp code from std_msgs/UInt32MultiArray.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/UInt32MultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/UInt32MultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt64.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt64.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt64.l: /home/pi/catkin_ws/src/std_msgs/msg/UInt64.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating EusLisp code from std_msgs/UInt64.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/UInt64.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/UInt64.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt64MultiArray.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt64MultiArray.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt64MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/UInt64MultiArray.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt64MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayDimension.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt64MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayLayout.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating EusLisp code from std_msgs/UInt64MultiArray.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/UInt64MultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/UInt64MultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt8.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt8.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt8.l: /home/pi/catkin_ws/src/std_msgs/msg/UInt8.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating EusLisp code from std_msgs/UInt8.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/UInt8.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/UInt8.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt8MultiArray.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt8MultiArray.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt8MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/UInt8MultiArray.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt8MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayDimension.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/UInt8MultiArray.l: /home/pi/catkin_ws/src/std_msgs/msg/MultiArrayLayout.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating EusLisp code from std_msgs/UInt8MultiArray.msg"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/UInt8MultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/std_msgs/msg/UInt8MultiArray.msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p std_msgs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/manifest.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/manifest.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating EusLisp manifest code for std_msgs"
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py -m -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs std_msgs
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs std_msgs
 
 std_msgs_generate_messages_eus: std_msgs/CMakeFiles/std_msgs_generate_messages_eus
 std_msgs_generate_messages_eus: /home/pi/catkin_ws/devel/share/roseus/ros/std_msgs/msg/Bool.l

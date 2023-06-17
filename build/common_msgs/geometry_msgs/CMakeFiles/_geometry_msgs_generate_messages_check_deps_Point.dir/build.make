@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/catkin_ws/build
 include common_msgs/geometry_msgs/CMakeFiles/_geometry_msgs_generate_messages_check_deps_Point.dir/progress.make
 
 common_msgs/geometry_msgs/CMakeFiles/_geometry_msgs_generate_messages_check_deps_Point:
-	cd /home/pi/catkin_ws/build/common_msgs/geometry_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py geometry_msgs /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Point.msg 
+	cd /home/pi/catkin_ws/build/common_msgs/geometry_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py geometry_msgs /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Point.msg 
 
 _geometry_msgs_generate_messages_check_deps_Point: common_msgs/geometry_msgs/CMakeFiles/_geometry_msgs_generate_messages_check_deps_Point
 _geometry_msgs_generate_messages_check_deps_Point: common_msgs/geometry_msgs/CMakeFiles/_geometry_msgs_generate_messages_check_deps_Point.dir/build.make

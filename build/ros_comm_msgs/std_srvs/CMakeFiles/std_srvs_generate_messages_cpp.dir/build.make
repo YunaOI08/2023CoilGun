@@ -58,26 +58,26 @@ ros_comm_msgs/std_srvs/CMakeFiles/std_srvs_generate_messages_cpp: /home/pi/catki
 ros_comm_msgs/std_srvs/CMakeFiles/std_srvs_generate_messages_cpp: /home/pi/catkin_ws/devel/include/std_srvs/Trigger.h
 
 
-/home/pi/catkin_ws/devel/include/std_srvs/Empty.h: /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py
+/home/pi/catkin_ws/devel/include/std_srvs/Empty.h: /home/pi/catkin_ws/install/lib/gencpp/gen_cpp.py
 /home/pi/catkin_ws/devel/include/std_srvs/Empty.h: /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Empty.srv
-/home/pi/catkin_ws/devel/include/std_srvs/Empty.h: /home/pi/catkin_ws/src/gencpp/scripts/msg.h.template
-/home/pi/catkin_ws/devel/include/std_srvs/Empty.h: /home/pi/catkin_ws/src/gencpp/scripts/srv.h.template
+/home/pi/catkin_ws/devel/include/std_srvs/Empty.h: /home/pi/catkin_ws/install/share/gencpp/msg.h.template
+/home/pi/catkin_ws/devel/include/std_srvs/Empty.h: /home/pi/catkin_ws/install/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from std_srvs/Empty.srv"
-	cd /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Empty.srv -p std_srvs -o /home/pi/catkin_ws/devel/include/std_srvs -e /home/pi/catkin_ws/src/gencpp/scripts
+	cd /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Empty.srv -p std_srvs -o /home/pi/catkin_ws/devel/include/std_srvs -e /home/pi/catkin_ws/install/share/gencpp/cmake/..
 
-/home/pi/catkin_ws/devel/include/std_srvs/SetBool.h: /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py
+/home/pi/catkin_ws/devel/include/std_srvs/SetBool.h: /home/pi/catkin_ws/install/lib/gencpp/gen_cpp.py
 /home/pi/catkin_ws/devel/include/std_srvs/SetBool.h: /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/SetBool.srv
-/home/pi/catkin_ws/devel/include/std_srvs/SetBool.h: /home/pi/catkin_ws/src/gencpp/scripts/msg.h.template
-/home/pi/catkin_ws/devel/include/std_srvs/SetBool.h: /home/pi/catkin_ws/src/gencpp/scripts/srv.h.template
+/home/pi/catkin_ws/devel/include/std_srvs/SetBool.h: /home/pi/catkin_ws/install/share/gencpp/msg.h.template
+/home/pi/catkin_ws/devel/include/std_srvs/SetBool.h: /home/pi/catkin_ws/install/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from std_srvs/SetBool.srv"
-	cd /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/SetBool.srv -p std_srvs -o /home/pi/catkin_ws/devel/include/std_srvs -e /home/pi/catkin_ws/src/gencpp/scripts
+	cd /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/SetBool.srv -p std_srvs -o /home/pi/catkin_ws/devel/include/std_srvs -e /home/pi/catkin_ws/install/share/gencpp/cmake/..
 
-/home/pi/catkin_ws/devel/include/std_srvs/Trigger.h: /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py
+/home/pi/catkin_ws/devel/include/std_srvs/Trigger.h: /home/pi/catkin_ws/install/lib/gencpp/gen_cpp.py
 /home/pi/catkin_ws/devel/include/std_srvs/Trigger.h: /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Trigger.srv
-/home/pi/catkin_ws/devel/include/std_srvs/Trigger.h: /home/pi/catkin_ws/src/gencpp/scripts/msg.h.template
-/home/pi/catkin_ws/devel/include/std_srvs/Trigger.h: /home/pi/catkin_ws/src/gencpp/scripts/srv.h.template
+/home/pi/catkin_ws/devel/include/std_srvs/Trigger.h: /home/pi/catkin_ws/install/share/gencpp/msg.h.template
+/home/pi/catkin_ws/devel/include/std_srvs/Trigger.h: /home/pi/catkin_ws/install/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from std_srvs/Trigger.srv"
-	cd /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Trigger.srv -p std_srvs -o /home/pi/catkin_ws/devel/include/std_srvs -e /home/pi/catkin_ws/src/gencpp/scripts
+	cd /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Trigger.srv -p std_srvs -o /home/pi/catkin_ws/devel/include/std_srvs -e /home/pi/catkin_ws/install/share/gencpp/cmake/..
 
 std_srvs_generate_messages_cpp: ros_comm_msgs/std_srvs/CMakeFiles/std_srvs_generate_messages_cpp
 std_srvs_generate_messages_cpp: /home/pi/catkin_ws/devel/include/std_srvs/Empty.h

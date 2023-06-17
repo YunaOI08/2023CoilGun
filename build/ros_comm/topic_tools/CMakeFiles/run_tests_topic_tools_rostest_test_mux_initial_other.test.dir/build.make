@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/catkin_ws/build
 include ros_comm/topic_tools/CMakeFiles/run_tests_topic_tools_rostest_test_mux_initial_other.test.dir/progress.make
 
 ros_comm/topic_tools/CMakeFiles/run_tests_topic_tools_rostest_test_mux_initial_other.test:
-	cd /home/pi/catkin_ws/build/ros_comm/topic_tools && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/catkin/cmake/test/run_tests.py /home/pi/catkin_ws/build/test_results/topic_tools/rostest-test_mux_initial_other.xml "/usr/bin/python3 /home/pi/catkin_ws/src/ros_comm/rostest/scripts/rostest --pkgdir=/home/pi/catkin_ws/src/ros_comm/topic_tools --package=topic_tools --results-filename test_mux_initial_other.xml --results-base-dir \"/home/pi/catkin_ws/build/test_results\" /home/pi/catkin_ws/src/ros_comm/topic_tools/test/mux_initial_other.test "
+	cd /home/pi/catkin_ws/build/ros_comm/topic_tools && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/catkin/cmake/test/run_tests.py /home/pi/catkin_ws/build/test_results/topic_tools/rostest-test_mux_initial_other.xml "/usr/bin/python3 /home/pi/catkin_ws/install/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/pi/catkin_ws/src/ros_comm/topic_tools --package=topic_tools --results-filename test_mux_initial_other.xml --results-base-dir \"/home/pi/catkin_ws/build/test_results\" /home/pi/catkin_ws/src/ros_comm/topic_tools/test/mux_initial_other.test "
 
 run_tests_topic_tools_rostest_test_mux_initial_other.test: ros_comm/topic_tools/CMakeFiles/run_tests_topic_tools_rostest_test_mux_initial_other.test
 run_tests_topic_tools_rostest_test_mux_initial_other.test: ros_comm/topic_tools/CMakeFiles/run_tests_topic_tools_rostest_test_mux_initial_other.test.dir/build.make

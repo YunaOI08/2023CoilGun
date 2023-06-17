@@ -2,7 +2,7 @@
 
 message(STATUS "topic_tools: 0 messages, 8 services")
 
-set(MSG_I_FLAGS "-Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg")
+set(MSG_I_FLAGS "-Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)

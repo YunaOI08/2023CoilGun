@@ -59,24 +59,24 @@ ros_comm_msgs/std_srvs/CMakeFiles/std_srvs_generate_messages_eus: /home/pi/catki
 ros_comm_msgs/std_srvs/CMakeFiles/std_srvs_generate_messages_eus: /home/pi/catkin_ws/devel/share/roseus/ros/std_srvs/manifest.l
 
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_srvs/srv/Empty.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_srvs/srv/Empty.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_srvs/srv/Empty.l: /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Empty.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from std_srvs/Empty.srv"
-	cd /home/pi/catkin_ws/build/ros_comm_msgs/std_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Empty.srv -p std_srvs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_srvs/srv
+	cd /home/pi/catkin_ws/build/ros_comm_msgs/std_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Empty.srv -p std_srvs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_srvs/srv
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_srvs/srv/SetBool.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_srvs/srv/SetBool.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_srvs/srv/SetBool.l: /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/SetBool.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from std_srvs/SetBool.srv"
-	cd /home/pi/catkin_ws/build/ros_comm_msgs/std_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/SetBool.srv -p std_srvs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_srvs/srv
+	cd /home/pi/catkin_ws/build/ros_comm_msgs/std_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/SetBool.srv -p std_srvs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_srvs/srv
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_srvs/srv/Trigger.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_srvs/srv/Trigger.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/std_srvs/srv/Trigger.l: /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Trigger.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from std_srvs/Trigger.srv"
-	cd /home/pi/catkin_ws/build/ros_comm_msgs/std_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Trigger.srv -p std_srvs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_srvs/srv
+	cd /home/pi/catkin_ws/build/ros_comm_msgs/std_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Trigger.srv -p std_srvs -o /home/pi/catkin_ws/devel/share/roseus/ros/std_srvs/srv
 
-/home/pi/catkin_ws/devel/share/roseus/ros/std_srvs/manifest.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/std_srvs/manifest.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp manifest code for std_srvs"
-	cd /home/pi/catkin_ws/build/ros_comm_msgs/std_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py -m -o /home/pi/catkin_ws/devel/share/roseus/ros/std_srvs std_srvs
+	cd /home/pi/catkin_ws/build/ros_comm_msgs/std_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/pi/catkin_ws/devel/share/roseus/ros/std_srvs std_srvs
 
 std_srvs_generate_messages_eus: ros_comm_msgs/std_srvs/CMakeFiles/std_srvs_generate_messages_eus
 std_srvs_generate_messages_eus: /home/pi/catkin_ws/devel/share/roseus/ros/std_srvs/srv/Empty.l

@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -Wall -Wextra -Wpedantic -std=gnu++14
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1 -Dclass_loader_TestPlugins2_EXPORTS
 
-CXX_INCLUDES = -I/home/pi/catkin_ws/src/class_loader/include 
+CXX_INCLUDES = -I/home/pi/catkin_ws/src/class_loader/include -I/home/pi/catkin_ws/install/include 
 

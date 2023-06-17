@@ -57,14 +57,14 @@ lepton_msg_pkg/CMakeFiles/lepton_msg_pkg_generate_messages_eus: /home/pi/catkin_
 lepton_msg_pkg/CMakeFiles/lepton_msg_pkg_generate_messages_eus: /home/pi/catkin_ws/devel/share/roseus/ros/lepton_msg_pkg/manifest.l
 
 
-/home/pi/catkin_ws/devel/share/roseus/ros/lepton_msg_pkg/msg/Lepton.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/lepton_msg_pkg/msg/Lepton.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/lepton_msg_pkg/msg/Lepton.l: /home/pi/catkin_ws/src/lepton_msg_pkg/msg/Lepton.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from lepton_msg_pkg/Lepton.msg"
-	cd /home/pi/catkin_ws/build/lepton_msg_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/lepton_msg_pkg/msg/Lepton.msg -Ilepton_msg_pkg:/home/pi/catkin_ws/src/lepton_msg_pkg/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p lepton_msg_pkg -o /home/pi/catkin_ws/devel/share/roseus/ros/lepton_msg_pkg/msg
+	cd /home/pi/catkin_ws/build/lepton_msg_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/lepton_msg_pkg/msg/Lepton.msg -Ilepton_msg_pkg:/home/pi/catkin_ws/src/lepton_msg_pkg/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p lepton_msg_pkg -o /home/pi/catkin_ws/devel/share/roseus/ros/lepton_msg_pkg/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/lepton_msg_pkg/manifest.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/lepton_msg_pkg/manifest.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for lepton_msg_pkg"
-	cd /home/pi/catkin_ws/build/lepton_msg_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py -m -o /home/pi/catkin_ws/devel/share/roseus/ros/lepton_msg_pkg lepton_msg_pkg std_msgs
+	cd /home/pi/catkin_ws/build/lepton_msg_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/pi/catkin_ws/devel/share/roseus/ros/lepton_msg_pkg lepton_msg_pkg std_msgs
 
 lepton_msg_pkg_generate_messages_eus: lepton_msg_pkg/CMakeFiles/lepton_msg_pkg_generate_messages_eus
 lepton_msg_pkg_generate_messages_eus: /home/pi/catkin_ws/devel/share/roseus/ros/lepton_msg_pkg/msg/Lepton.l

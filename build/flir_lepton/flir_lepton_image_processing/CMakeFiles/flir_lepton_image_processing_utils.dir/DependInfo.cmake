@@ -30,20 +30,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/pi/catkin_ws/devel/include"
   "/home/pi/catkin_ws/src/flir_lepton/flir_lepton_image_processing/include/flir_lepton_image_processing"
-  "/home/pi/catkin_ws/devel/include/ros"
-  "/home/pi/catkin_ws/src/ros_comm/roscpp/include"
-  "/home/pi/catkin_ws/src/roscpp_core/cpp_common/include"
-  "/home/pi/catkin_ws/src/roscpp_core/roscpp_serialization/include"
-  "/home/pi/catkin_ws/src/roscpp_core/roscpp_traits/include"
-  "/home/pi/catkin_ws/src/roscpp_core/rostime/include"
-  "/home/pi/catkin_ws/src/rosconsole/include"
-  "/home/pi/catkin_ws/src/std_msgs/include"
-  "/home/pi/catkin_ws/src/ros_comm/xmlrpcpp/include"
-  "/home/pi/catkin_ws/src/ros_comm/xmlrpcpp/include/xmlrpcpp"
-  "/home/pi/catkin_ws/src/vision_opencv/cv_bridge/include"
-  "/home/pi/catkin_ws/src/common_msgs/sensor_msgs/include"
-  "/home/pi/catkin_ws/src/dynamic_reconfigure/include"
-  "/usr/local/include/opencv4"
+  "/home/pi/catkin_ws/install/include"
+  "/home/pi/catkin_ws/install/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/usr/include/opencv"
   )
 
 # Targets to which this target links.

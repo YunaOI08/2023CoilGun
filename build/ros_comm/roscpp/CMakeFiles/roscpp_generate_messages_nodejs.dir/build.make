@@ -59,26 +59,26 @@ ros_comm/roscpp/CMakeFiles/roscpp_generate_messages_nodejs: /home/pi/catkin_ws/d
 ros_comm/roscpp/CMakeFiles/roscpp_generate_messages_nodejs: /home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/srv/SetLoggerLevel.js
 
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/msg/Logger.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/msg/Logger.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/msg/Logger.js: /home/pi/catkin_ws/src/ros_comm/roscpp/msg/Logger.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from roscpp/Logger.msg"
-	cd /home/pi/catkin_ws/build/ros_comm/roscpp && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/src/ros_comm/roscpp/msg/Logger.msg -Iroscpp:/home/pi/catkin_ws/src/ros_comm/roscpp/msg -p roscpp -o /home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/msg
+	cd /home/pi/catkin_ws/build/ros_comm/roscpp && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/src/ros_comm/roscpp/msg/Logger.msg -Iroscpp:/home/pi/catkin_ws/src/ros_comm/roscpp/msg -p roscpp -o /home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/msg
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/srv/Empty.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/srv/Empty.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/srv/Empty.js: /home/pi/catkin_ws/src/ros_comm/roscpp/srv/Empty.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from roscpp/Empty.srv"
-	cd /home/pi/catkin_ws/build/ros_comm/roscpp && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/src/ros_comm/roscpp/srv/Empty.srv -Iroscpp:/home/pi/catkin_ws/src/ros_comm/roscpp/msg -p roscpp -o /home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/srv
+	cd /home/pi/catkin_ws/build/ros_comm/roscpp && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/src/ros_comm/roscpp/srv/Empty.srv -Iroscpp:/home/pi/catkin_ws/src/ros_comm/roscpp/msg -p roscpp -o /home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/srv
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/srv/GetLoggers.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/srv/GetLoggers.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/srv/GetLoggers.js: /home/pi/catkin_ws/src/ros_comm/roscpp/srv/GetLoggers.srv
 /home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/srv/GetLoggers.js: /home/pi/catkin_ws/src/ros_comm/roscpp/msg/Logger.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from roscpp/GetLoggers.srv"
-	cd /home/pi/catkin_ws/build/ros_comm/roscpp && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/src/ros_comm/roscpp/srv/GetLoggers.srv -Iroscpp:/home/pi/catkin_ws/src/ros_comm/roscpp/msg -p roscpp -o /home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/srv
+	cd /home/pi/catkin_ws/build/ros_comm/roscpp && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/src/ros_comm/roscpp/srv/GetLoggers.srv -Iroscpp:/home/pi/catkin_ws/src/ros_comm/roscpp/msg -p roscpp -o /home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/srv
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/srv/SetLoggerLevel.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/srv/SetLoggerLevel.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/srv/SetLoggerLevel.js: /home/pi/catkin_ws/src/ros_comm/roscpp/srv/SetLoggerLevel.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from roscpp/SetLoggerLevel.srv"
-	cd /home/pi/catkin_ws/build/ros_comm/roscpp && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/src/ros_comm/roscpp/srv/SetLoggerLevel.srv -Iroscpp:/home/pi/catkin_ws/src/ros_comm/roscpp/msg -p roscpp -o /home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/srv
+	cd /home/pi/catkin_ws/build/ros_comm/roscpp && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/src/ros_comm/roscpp/srv/SetLoggerLevel.srv -Iroscpp:/home/pi/catkin_ws/src/ros_comm/roscpp/msg -p roscpp -o /home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/srv
 
 roscpp_generate_messages_nodejs: ros_comm/roscpp/CMakeFiles/roscpp_generate_messages_nodejs
 roscpp_generate_messages_nodejs: /home/pi/catkin_ws/devel/share/gennodejs/ros/roscpp/msg/Logger.js

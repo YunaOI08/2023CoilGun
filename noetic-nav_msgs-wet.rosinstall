@@ -1,0 +1,69 @@
+- tar:
+    local-name: catkin
+    uri: https://github.com/ros-gbp/catkin-release/archive/release/noetic/catkin/0.8.10-1.tar.gz
+    version: catkin-release-release-noetic-catkin-0.8.10-1
+- tar:
+    local-name: common_msgs/actionlib_msgs
+    uri: https://github.com/ros-gbp/common_msgs-release/archive/release/noetic/actionlib_msgs/1.13.1-1.tar.gz
+    version: common_msgs-release-release-noetic-actionlib_msgs-1.13.1-1
+- tar:
+    local-name: common_msgs/geometry_msgs
+    uri: https://github.com/ros-gbp/common_msgs-release/archive/release/noetic/geometry_msgs/1.13.1-1.tar.gz
+    version: common_msgs-release-release-noetic-geometry_msgs-1.13.1-1
+- tar:
+    local-name: common_msgs/nav_msgs
+    uri: https://github.com/ros-gbp/common_msgs-release/archive/release/noetic/nav_msgs/1.13.1-1.tar.gz
+    version: common_msgs-release-release-noetic-nav_msgs-1.13.1-1
+- tar:
+    local-name: gencpp
+    uri: https://github.com/ros-gbp/gencpp-release/archive/release/noetic/gencpp/0.7.0-1.tar.gz
+    version: gencpp-release-release-noetic-gencpp-0.7.0-1
+- tar:
+    local-name: geneus
+    uri: https://github.com/tork-a/geneus-release/archive/release/noetic/geneus/3.0.0-1.tar.gz
+    version: geneus-release-release-noetic-geneus-3.0.0-1
+- tar:
+    local-name: genlisp
+    uri: https://github.com/ros-gbp/genlisp-release/archive/release/noetic/genlisp/0.4.18-1.tar.gz
+    version: genlisp-release-release-noetic-genlisp-0.4.18-1
+- tar:
+    local-name: genmsg
+    uri: https://github.com/ros-gbp/genmsg-release/archive/release/noetic/genmsg/0.6.0-1.tar.gz
+    version: genmsg-release-release-noetic-genmsg-0.6.0-1
+- tar:
+    local-name: gennodejs
+    uri: https://github.com/sloretz/gennodejs-release/archive/release/noetic/gennodejs/2.0.2-1.tar.gz
+    version: gennodejs-release-release-noetic-gennodejs-2.0.2-1
+- tar:
+    local-name: genpy
+    uri: https://github.com/ros-gbp/genpy-release/archive/release/noetic/genpy/0.6.15-1.tar.gz
+    version: genpy-release-release-noetic-genpy-0.6.15-1
+- tar:
+    local-name: message_generation
+    uri: https://github.com/ros-gbp/message_generation-release/archive/release/noetic/message_generation/0.4.1-1.tar.gz
+    version: message_generation-release-release-noetic-message_generation-0.4.1-1
+- tar:
+    local-name: message_runtime
+    uri: https://github.com/ros-gbp/message_runtime-release/archive/release/noetic/message_runtime/0.4.13-1.tar.gz
+    version: message_runtime-release-release-noetic-message_runtime-0.4.13-1
+- tar:
+    local-name: roscpp_core/cpp_common
+    uri: https://github.com/ros-gbp/roscpp_core-release/archive/release/noetic/cpp_common/0.7.2-1.tar.gz
+    version: roscpp_core-release-release-noetic-cpp_common-0.7.2-1
+- tar:
+    local-name: roscpp_core/roscpp_serialization
+    uri: https://github.com/ros-gbp/roscpp_core-release/archive/release/noetic/roscpp_serialization/0.7.2-1.tar.gz
+    version: roscpp_core-release-release-noetic-roscpp_serialization-0.7.2-1
+- tar:
+    local-name: roscpp_core/roscpp_traits
+    uri: https://github.com/ros-gbp/roscpp_core-release/archive/release/noetic/roscpp_traits/0.7.2-1.tar.gz
+    version: roscpp_core-release-release-noetic-roscpp_traits-0.7.2-1
+- tar:
+    local-name: roscpp_core/rostime
+    uri: https://github.com/ros-gbp/roscpp_core-release/archive/release/noetic/rostime/0.7.2-1.tar.gz
+    version: roscpp_core-release-release-noetic-rostime-0.7.2-1
+- tar:
+    local-name: std_msgs
+    uri: https://github.com/ros-gbp/std_msgs-release/archive/release/noetic/std_msgs/0.5.13-1.tar.gz
+    version: std_msgs-release-release-noetic-std_msgs-0.5.13-1
+

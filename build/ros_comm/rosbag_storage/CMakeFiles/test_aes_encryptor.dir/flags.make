@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wextra -DGTEST_HAS_PTHREAD=1 -pthread
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"rosbag_storage\" -D_FILE_OFFSET_BITS=64
 
-CXX_INCLUDES = -I/home/pi/catkin_ws/src/ros_comm/rosbag_storage/include -I/home/pi/catkin_ws/devel/include -I/home/pi/catkin_ws/src/roscpp_core/cpp_common/include -I/home/pi/catkin_ws/src/pluginlib/include -I/home/pi/catkin_ws/src/class_loader/include -I/home/pi/catkin_ws/src/rosconsole/include -I/home/pi/catkin_ws/src/roscpp_core/rostime/include -I/home/pi/catkin_ws/src/ros/roslib/include -I/home/pi/catkin_ws/src/rospack/include -I/home/pi/catkin_ws/src/roscpp_core/roscpp_serialization/include -I/home/pi/catkin_ws/src/roscpp_core/roscpp_traits/include -I/home/pi/catkin_ws/src/ros_comm/roslz4/include -I/home/pi/catkin_ws/src/std_msgs/include -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest 
+CXX_INCLUDES = -I/home/pi/catkin_ws/src/ros_comm/rosbag_storage/include -I/home/pi/catkin_ws/install/include -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest 
 

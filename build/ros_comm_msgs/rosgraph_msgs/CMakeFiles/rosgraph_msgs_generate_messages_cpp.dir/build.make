@@ -58,24 +58,24 @@ ros_comm_msgs/rosgraph_msgs/CMakeFiles/rosgraph_msgs_generate_messages_cpp: /hom
 ros_comm_msgs/rosgraph_msgs/CMakeFiles/rosgraph_msgs_generate_messages_cpp: /home/pi/catkin_ws/devel/include/rosgraph_msgs/TopicStatistics.h
 
 
-/home/pi/catkin_ws/devel/include/rosgraph_msgs/Clock.h: /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py
+/home/pi/catkin_ws/devel/include/rosgraph_msgs/Clock.h: /home/pi/catkin_ws/install/lib/gencpp/gen_cpp.py
 /home/pi/catkin_ws/devel/include/rosgraph_msgs/Clock.h: /home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg/Clock.msg
-/home/pi/catkin_ws/devel/include/rosgraph_msgs/Clock.h: /home/pi/catkin_ws/src/gencpp/scripts/msg.h.template
+/home/pi/catkin_ws/devel/include/rosgraph_msgs/Clock.h: /home/pi/catkin_ws/install/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from rosgraph_msgs/Clock.msg"
-	cd /home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py /home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg/Clock.msg -Irosgraph_msgs:/home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p rosgraph_msgs -o /home/pi/catkin_ws/devel/include/rosgraph_msgs -e /home/pi/catkin_ws/src/gencpp/scripts
+	cd /home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg/Clock.msg -Irosgraph_msgs:/home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p rosgraph_msgs -o /home/pi/catkin_ws/devel/include/rosgraph_msgs -e /home/pi/catkin_ws/install/share/gencpp/cmake/..
 
-/home/pi/catkin_ws/devel/include/rosgraph_msgs/Log.h: /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py
+/home/pi/catkin_ws/devel/include/rosgraph_msgs/Log.h: /home/pi/catkin_ws/install/lib/gencpp/gen_cpp.py
 /home/pi/catkin_ws/devel/include/rosgraph_msgs/Log.h: /home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg/Log.msg
-/home/pi/catkin_ws/devel/include/rosgraph_msgs/Log.h: /home/pi/catkin_ws/src/std_msgs/msg/Header.msg
-/home/pi/catkin_ws/devel/include/rosgraph_msgs/Log.h: /home/pi/catkin_ws/src/gencpp/scripts/msg.h.template
+/home/pi/catkin_ws/devel/include/rosgraph_msgs/Log.h: /home/pi/catkin_ws/install/share/std_msgs/msg/Header.msg
+/home/pi/catkin_ws/devel/include/rosgraph_msgs/Log.h: /home/pi/catkin_ws/install/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from rosgraph_msgs/Log.msg"
-	cd /home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py /home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg/Log.msg -Irosgraph_msgs:/home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p rosgraph_msgs -o /home/pi/catkin_ws/devel/include/rosgraph_msgs -e /home/pi/catkin_ws/src/gencpp/scripts
+	cd /home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg/Log.msg -Irosgraph_msgs:/home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p rosgraph_msgs -o /home/pi/catkin_ws/devel/include/rosgraph_msgs -e /home/pi/catkin_ws/install/share/gencpp/cmake/..
 
-/home/pi/catkin_ws/devel/include/rosgraph_msgs/TopicStatistics.h: /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py
+/home/pi/catkin_ws/devel/include/rosgraph_msgs/TopicStatistics.h: /home/pi/catkin_ws/install/lib/gencpp/gen_cpp.py
 /home/pi/catkin_ws/devel/include/rosgraph_msgs/TopicStatistics.h: /home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg/TopicStatistics.msg
-/home/pi/catkin_ws/devel/include/rosgraph_msgs/TopicStatistics.h: /home/pi/catkin_ws/src/gencpp/scripts/msg.h.template
+/home/pi/catkin_ws/devel/include/rosgraph_msgs/TopicStatistics.h: /home/pi/catkin_ws/install/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from rosgraph_msgs/TopicStatistics.msg"
-	cd /home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py /home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg/TopicStatistics.msg -Irosgraph_msgs:/home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p rosgraph_msgs -o /home/pi/catkin_ws/devel/include/rosgraph_msgs -e /home/pi/catkin_ws/src/gencpp/scripts
+	cd /home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg/TopicStatistics.msg -Irosgraph_msgs:/home/pi/catkin_ws/src/ros_comm_msgs/rosgraph_msgs/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p rosgraph_msgs -o /home/pi/catkin_ws/devel/include/rosgraph_msgs -e /home/pi/catkin_ws/install/share/gencpp/cmake/..
 
 rosgraph_msgs_generate_messages_cpp: ros_comm_msgs/rosgraph_msgs/CMakeFiles/rosgraph_msgs_generate_messages_cpp
 rosgraph_msgs_generate_messages_cpp: /home/pi/catkin_ws/devel/include/rosgraph_msgs/Clock.h

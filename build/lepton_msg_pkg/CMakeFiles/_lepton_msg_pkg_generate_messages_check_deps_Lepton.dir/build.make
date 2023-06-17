@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/catkin_ws/build
 include lepton_msg_pkg/CMakeFiles/_lepton_msg_pkg_generate_messages_check_deps_Lepton.dir/progress.make
 
 lepton_msg_pkg/CMakeFiles/_lepton_msg_pkg_generate_messages_check_deps_Lepton:
-	cd /home/pi/catkin_ws/build/lepton_msg_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py lepton_msg_pkg /home/pi/catkin_ws/src/lepton_msg_pkg/msg/Lepton.msg 
+	cd /home/pi/catkin_ws/build/lepton_msg_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py lepton_msg_pkg /home/pi/catkin_ws/src/lepton_msg_pkg/msg/Lepton.msg 
 
 _lepton_msg_pkg_generate_messages_check_deps_Lepton: lepton_msg_pkg/CMakeFiles/_lepton_msg_pkg_generate_messages_check_deps_Lepton
 _lepton_msg_pkg_generate_messages_check_deps_Lepton: lepton_msg_pkg/CMakeFiles/_lepton_msg_pkg_generate_messages_check_deps_Lepton.dir/build.make

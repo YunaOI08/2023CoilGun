@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/home/pi/catkin_ws/src/class_loader/include;/home/pi/catkin_ws/src/rosconsole/include;/home/pi/catkin_ws/src/roscpp_core/cpp_common/include;/home/pi/catkin_ws/src/roscpp_core/rostime/include;/home/pi/catkin_ws/src/ros/roslib/include;/home/pi/catkin_ws/src/rospack/include;/usr/include")
+set(ORDERED_PATHS "/home/pi/catkin_ws/install/include;/usr/include")

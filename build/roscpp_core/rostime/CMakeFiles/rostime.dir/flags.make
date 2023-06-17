@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1 -Drostime_EXPORTS
 
-CXX_INCLUDES = -I/home/pi/catkin_ws/src/roscpp_core/rostime/include -I/home/pi/catkin_ws/src/roscpp_core/cpp_common/include 
+CXX_INCLUDES = -I/home/pi/catkin_ws/src/roscpp_core/rostime/include -I/home/pi/catkin_ws/install/include 
 
