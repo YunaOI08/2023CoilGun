@@ -71,170 +71,170 @@ common_msgs/nav_msgs/CMakeFiles/nav_msgs_generate_messages_nodejs: /home/pi/catk
 common_msgs/nav_msgs/CMakeFiles/nav_msgs_generate_messages_nodejs: /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/LoadMap.js
 
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GridCells.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GridCells.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GridCells.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/GridCells.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GridCells.js: /home/pi/catkin_ws/install/share/std_msgs/msg/Header.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GridCells.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Point.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GridCells.js: /home/pi/catkin_ws/src/std_msgs/msg/Header.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GridCells.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from nav_msgs/GridCells.msg"
-	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/GridCells.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/install/share/geometry_msgs/cmake/../msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -Iactionlib_msgs:/home/pi/catkin_ws/install/share/actionlib_msgs/cmake/../msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
+	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/GridCells.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -Iactionlib_msgs:/home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/MapMetaData.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/MapMetaData.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/MapMetaData.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/MapMetaData.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/MapMetaData.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Pose.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/MapMetaData.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Quaternion.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/MapMetaData.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Point.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/MapMetaData.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/MapMetaData.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Point.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/MapMetaData.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from nav_msgs/MapMetaData.msg"
-	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/MapMetaData.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/install/share/geometry_msgs/cmake/../msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -Iactionlib_msgs:/home/pi/catkin_ws/install/share/actionlib_msgs/cmake/../msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
+	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/MapMetaData.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -Iactionlib_msgs:/home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/OccupancyGrid.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/OccupancyGrid.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/OccupancyGrid.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/OccupancyGrid.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/OccupancyGrid.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Pose.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/OccupancyGrid.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/OccupancyGrid.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Point.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/OccupancyGrid.js: /home/pi/catkin_ws/src/std_msgs/msg/Header.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/OccupancyGrid.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Pose.msg
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/OccupancyGrid.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/MapMetaData.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/OccupancyGrid.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Point.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/OccupancyGrid.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Quaternion.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/OccupancyGrid.js: /home/pi/catkin_ws/install/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from nav_msgs/OccupancyGrid.msg"
-	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/OccupancyGrid.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/install/share/geometry_msgs/cmake/../msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -Iactionlib_msgs:/home/pi/catkin_ws/install/share/actionlib_msgs/cmake/../msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
+	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/OccupancyGrid.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -Iactionlib_msgs:/home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Odometry.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Odometry.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Odometry.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/Odometry.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Odometry.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/TwistWithCovariance.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Odometry.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/PoseWithCovariance.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Odometry.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Pose.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Odometry.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Point.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Odometry.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Twist.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Odometry.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Quaternion.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Odometry.js: /home/pi/catkin_ws/install/share/std_msgs/msg/Header.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Odometry.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Vector3.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Odometry.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Odometry.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Vector3.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Odometry.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/PoseWithCovariance.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Odometry.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Twist.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Odometry.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Point.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Odometry.js: /home/pi/catkin_ws/src/std_msgs/msg/Header.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Odometry.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Pose.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Odometry.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/TwistWithCovariance.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from nav_msgs/Odometry.msg"
-	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/Odometry.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/install/share/geometry_msgs/cmake/../msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -Iactionlib_msgs:/home/pi/catkin_ws/install/share/actionlib_msgs/cmake/../msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
+	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/Odometry.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -Iactionlib_msgs:/home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Path.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Path.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Path.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/Path.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Path.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Pose.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Path.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Point.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Path.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Quaternion.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Path.js: /home/pi/catkin_ws/install/share/std_msgs/msg/Header.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Path.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/PoseStamped.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Path.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Path.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Point.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Path.js: /home/pi/catkin_ws/src/std_msgs/msg/Header.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Path.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Pose.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/Path.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from nav_msgs/Path.msg"
-	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/Path.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/install/share/geometry_msgs/cmake/../msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -Iactionlib_msgs:/home/pi/catkin_ws/install/share/actionlib_msgs/cmake/../msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
+	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/Path.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -Iactionlib_msgs:/home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapAction.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/install/share/actionlib_msgs/msg/GoalStatus.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapActionGoal.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/OccupancyGrid.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/install/share/actionlib_msgs/msg/GoalID.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapActionFeedback.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Pose.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapFeedback.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/MapMetaData.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Point.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapResult.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Quaternion.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/install/share/std_msgs/msg/Header.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapActionResult.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapGoal.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapActionResult.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Point.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapActionGoal.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/src/std_msgs/msg/Header.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg/GoalStatus.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapResult.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/OccupancyGrid.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg/GoalID.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Pose.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapFeedback.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapActionFeedback.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/MapMetaData.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from nav_msgs/GetMapAction.msg"
-	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapAction.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/install/share/geometry_msgs/cmake/../msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -Iactionlib_msgs:/home/pi/catkin_ws/install/share/actionlib_msgs/cmake/../msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
+	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapAction.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -Iactionlib_msgs:/home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionGoal.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionGoal.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionGoal.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapActionGoal.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionGoal.js: /home/pi/catkin_ws/install/share/std_msgs/msg/Header.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionGoal.js: /home/pi/catkin_ws/src/std_msgs/msg/Header.msg
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionGoal.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapGoal.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionGoal.js: /home/pi/catkin_ws/install/share/actionlib_msgs/msg/GoalID.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionGoal.js: /home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from nav_msgs/GetMapActionGoal.msg"
-	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapActionGoal.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/install/share/geometry_msgs/cmake/../msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -Iactionlib_msgs:/home/pi/catkin_ws/install/share/actionlib_msgs/cmake/../msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
+	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapActionGoal.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -Iactionlib_msgs:/home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapActionResult.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js: /home/pi/catkin_ws/install/share/actionlib_msgs/msg/GoalStatus.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/OccupancyGrid.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js: /home/pi/catkin_ws/install/share/actionlib_msgs/msg/GoalID.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Pose.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/MapMetaData.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Point.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Point.msg
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapResult.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Quaternion.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js: /home/pi/catkin_ws/install/share/std_msgs/msg/Header.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js: /home/pi/catkin_ws/src/std_msgs/msg/Header.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js: /home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg/GoalStatus.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/OccupancyGrid.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js: /home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg/GoalID.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Pose.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/MapMetaData.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from nav_msgs/GetMapActionResult.msg"
-	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapActionResult.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/install/share/geometry_msgs/cmake/../msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -Iactionlib_msgs:/home/pi/catkin_ws/install/share/actionlib_msgs/cmake/../msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
+	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapActionResult.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -Iactionlib_msgs:/home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionFeedback.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionFeedback.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionFeedback.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapActionFeedback.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionFeedback.js: /home/pi/catkin_ws/install/share/std_msgs/msg/Header.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionFeedback.js: /home/pi/catkin_ws/install/share/actionlib_msgs/msg/GoalStatus.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionFeedback.js: /home/pi/catkin_ws/src/std_msgs/msg/Header.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionFeedback.js: /home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg/GoalStatus.msg
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionFeedback.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapFeedback.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionFeedback.js: /home/pi/catkin_ws/install/share/actionlib_msgs/msg/GoalID.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapActionFeedback.js: /home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from nav_msgs/GetMapActionFeedback.msg"
-	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapActionFeedback.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/install/share/geometry_msgs/cmake/../msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -Iactionlib_msgs:/home/pi/catkin_ws/install/share/actionlib_msgs/cmake/../msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
+	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapActionFeedback.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -Iactionlib_msgs:/home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapGoal.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapGoal.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapGoal.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from nav_msgs/GetMapGoal.msg"
-	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapGoal.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/install/share/geometry_msgs/cmake/../msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -Iactionlib_msgs:/home/pi/catkin_ws/install/share/actionlib_msgs/cmake/../msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
+	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapGoal.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -Iactionlib_msgs:/home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapResult.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapResult.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapResult.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapResult.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapResult.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapResult.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Point.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapResult.js: /home/pi/catkin_ws/src/std_msgs/msg/Header.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapResult.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Pose.msg
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapResult.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/OccupancyGrid.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapResult.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Pose.msg
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapResult.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/MapMetaData.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapResult.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Point.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapResult.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Quaternion.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapResult.js: /home/pi/catkin_ws/install/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from nav_msgs/GetMapResult.msg"
-	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapResult.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/install/share/geometry_msgs/cmake/../msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -Iactionlib_msgs:/home/pi/catkin_ws/install/share/actionlib_msgs/cmake/../msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
+	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapResult.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -Iactionlib_msgs:/home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapFeedback.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapFeedback.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GetMapFeedback.js: /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from nav_msgs/GetMapFeedback.msg"
-	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapFeedback.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/install/share/geometry_msgs/cmake/../msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -Iactionlib_msgs:/home/pi/catkin_ws/install/share/actionlib_msgs/cmake/../msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
+	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/devel/share/nav_msgs/msg/GetMapFeedback.msg -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -Iactionlib_msgs:/home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetMap.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetMap.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetMap.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/srv/GetMap.srv
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetMap.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetMap.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Point.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetMap.js: /home/pi/catkin_ws/src/std_msgs/msg/Header.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetMap.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Pose.msg
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetMap.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/OccupancyGrid.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetMap.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Pose.msg
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetMap.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/MapMetaData.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetMap.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Point.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetMap.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Quaternion.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetMap.js: /home/pi/catkin_ws/install/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from nav_msgs/GetMap.srv"
-	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/src/common_msgs/nav_msgs/srv/GetMap.srv -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/install/share/geometry_msgs/cmake/../msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -Iactionlib_msgs:/home/pi/catkin_ws/install/share/actionlib_msgs/cmake/../msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv
+	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/src/common_msgs/nav_msgs/srv/GetMap.srv -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -Iactionlib_msgs:/home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetPlan.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetPlan.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetPlan.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/srv/GetPlan.srv
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetPlan.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Pose.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetPlan.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetPlan.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Point.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetPlan.js: /home/pi/catkin_ws/src/std_msgs/msg/Header.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetPlan.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Pose.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetPlan.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/PoseStamped.msg
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetPlan.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/Path.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetPlan.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Point.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetPlan.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Quaternion.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetPlan.js: /home/pi/catkin_ws/install/share/std_msgs/msg/Header.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/GetPlan.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/PoseStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Javascript code from nav_msgs/GetPlan.srv"
-	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/src/common_msgs/nav_msgs/srv/GetPlan.srv -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/install/share/geometry_msgs/cmake/../msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -Iactionlib_msgs:/home/pi/catkin_ws/install/share/actionlib_msgs/cmake/../msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv
+	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/src/common_msgs/nav_msgs/srv/GetPlan.srv -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -Iactionlib_msgs:/home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/SetMap.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/SetMap.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/SetMap.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/srv/SetMap.srv
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/SetMap.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/SetMap.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/PoseWithCovarianceStamped.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/SetMap.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/PoseWithCovariance.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/SetMap.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Point.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/SetMap.js: /home/pi/catkin_ws/src/std_msgs/msg/Header.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/SetMap.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Pose.msg
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/SetMap.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/OccupancyGrid.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/SetMap.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Pose.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/SetMap.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/PoseWithCovariance.msg
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/SetMap.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/MapMetaData.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/SetMap.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Point.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/SetMap.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Quaternion.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/SetMap.js: /home/pi/catkin_ws/install/share/std_msgs/msg/Header.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/SetMap.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Javascript code from nav_msgs/SetMap.srv"
-	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/src/common_msgs/nav_msgs/srv/SetMap.srv -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/install/share/geometry_msgs/cmake/../msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -Iactionlib_msgs:/home/pi/catkin_ws/install/share/actionlib_msgs/cmake/../msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv
+	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/src/common_msgs/nav_msgs/srv/SetMap.srv -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -Iactionlib_msgs:/home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/LoadMap.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/LoadMap.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/LoadMap.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/srv/LoadMap.srv
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/LoadMap.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/LoadMap.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Point.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/LoadMap.js: /home/pi/catkin_ws/src/std_msgs/msg/Header.msg
+/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/LoadMap.js: /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Pose.msg
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/LoadMap.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/OccupancyGrid.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/LoadMap.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Pose.msg
 /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/LoadMap.js: /home/pi/catkin_ws/src/common_msgs/nav_msgs/msg/MapMetaData.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/LoadMap.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Point.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/LoadMap.js: /home/pi/catkin_ws/install/share/geometry_msgs/msg/Quaternion.msg
-/home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv/LoadMap.js: /home/pi/catkin_ws/install/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Javascript code from nav_msgs/LoadMap.srv"
-	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/src/common_msgs/nav_msgs/srv/LoadMap.srv -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/install/share/geometry_msgs/cmake/../msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -Iactionlib_msgs:/home/pi/catkin_ws/install/share/actionlib_msgs/cmake/../msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv
+	cd /home/pi/catkin_ws/build/common_msgs/nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/src/common_msgs/nav_msgs/srv/LoadMap.srv -Inav_msgs:/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg -Inav_msgs:/home/pi/catkin_ws/devel/share/nav_msgs/msg -Igeometry_msgs:/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -Iactionlib_msgs:/home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg -p nav_msgs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/srv
 
 nav_msgs_generate_messages_nodejs: common_msgs/nav_msgs/CMakeFiles/nav_msgs_generate_messages_nodejs
 nav_msgs_generate_messages_nodejs: /home/pi/catkin_ws/devel/share/gennodejs/ros/nav_msgs/msg/GridCells.js

@@ -57,15 +57,15 @@ lepton_msg_pkg/CMakeFiles/lepton_msg_pkg_generate_messages_py: /home/pi/catkin_w
 lepton_msg_pkg/CMakeFiles/lepton_msg_pkg_generate_messages_py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/lepton_msg_pkg/msg/__init__.py
 
 
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/lepton_msg_pkg/msg/_Lepton.py: /home/pi/catkin_ws/install/lib/genpy/genmsg_py.py
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/lepton_msg_pkg/msg/_Lepton.py: /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/lepton_msg_pkg/msg/_Lepton.py: /home/pi/catkin_ws/src/lepton_msg_pkg/msg/Lepton.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG lepton_msg_pkg/Lepton"
-	cd /home/pi/catkin_ws/build/lepton_msg_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/pi/catkin_ws/src/lepton_msg_pkg/msg/Lepton.msg -Ilepton_msg_pkg:/home/pi/catkin_ws/src/lepton_msg_pkg/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p lepton_msg_pkg -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/lepton_msg_pkg/msg
+	cd /home/pi/catkin_ws/build/lepton_msg_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py /home/pi/catkin_ws/src/lepton_msg_pkg/msg/Lepton.msg -Ilepton_msg_pkg:/home/pi/catkin_ws/src/lepton_msg_pkg/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p lepton_msg_pkg -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/lepton_msg_pkg/msg
 
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/lepton_msg_pkg/msg/__init__.py: /home/pi/catkin_ws/install/lib/genpy/genmsg_py.py
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/lepton_msg_pkg/msg/__init__.py: /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/lepton_msg_pkg/msg/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/lepton_msg_pkg/msg/_Lepton.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for lepton_msg_pkg"
-	cd /home/pi/catkin_ws/build/lepton_msg_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/lepton_msg_pkg/msg --initpy
+	cd /home/pi/catkin_ws/build/lepton_msg_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/lepton_msg_pkg/msg --initpy
 
 lepton_msg_pkg_generate_messages_py: lepton_msg_pkg/CMakeFiles/lepton_msg_pkg_generate_messages_py
 lepton_msg_pkg_generate_messages_py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/lepton_msg_pkg/msg/_Lepton.py

@@ -19,8 +19,16 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/pi/catkin_ws/devel/include"
   "/home/pi/catkin_ws/src/ros_comm/topic_tools/include"
-  "/home/pi/catkin_ws/install/include"
-  "/home/pi/catkin_ws/install/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/home/pi/catkin_ws/devel/include/ros"
+  "/home/pi/catkin_ws/src/roscpp_core/cpp_common/include"
+  "/home/pi/catkin_ws/src/rosconsole/include"
+  "/home/pi/catkin_ws/src/roscpp_core/rostime/include"
+  "/home/pi/catkin_ws/src/ros_comm/roscpp/include"
+  "/home/pi/catkin_ws/src/roscpp_core/roscpp_serialization/include"
+  "/home/pi/catkin_ws/src/roscpp_core/roscpp_traits/include"
+  "/home/pi/catkin_ws/src/std_msgs/include"
+  "/home/pi/catkin_ws/src/ros_comm/xmlrpcpp/include"
+  "/home/pi/catkin_ws/src/ros_comm/xmlrpcpp/include/xmlrpcpp"
   )
 
 # Targets to which this target links.

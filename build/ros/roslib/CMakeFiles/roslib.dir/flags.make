@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1 -Droslib_EXPORTS
 
-CXX_INCLUDES = -I/home/pi/catkin_ws/src/ros/roslib/include -I/home/pi/catkin_ws/install/include 
+CXX_INCLUDES = -I/home/pi/catkin_ws/src/ros/roslib/include -I/home/pi/catkin_ws/src/rospack/include 
 

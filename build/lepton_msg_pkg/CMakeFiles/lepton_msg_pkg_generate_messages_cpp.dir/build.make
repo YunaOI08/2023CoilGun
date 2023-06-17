@@ -56,11 +56,11 @@ include lepton_msg_pkg/CMakeFiles/lepton_msg_pkg_generate_messages_cpp.dir/progr
 lepton_msg_pkg/CMakeFiles/lepton_msg_pkg_generate_messages_cpp: /home/pi/catkin_ws/devel/include/lepton_msg_pkg/Lepton.h
 
 
-/home/pi/catkin_ws/devel/include/lepton_msg_pkg/Lepton.h: /home/pi/catkin_ws/install/lib/gencpp/gen_cpp.py
+/home/pi/catkin_ws/devel/include/lepton_msg_pkg/Lepton.h: /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py
 /home/pi/catkin_ws/devel/include/lepton_msg_pkg/Lepton.h: /home/pi/catkin_ws/src/lepton_msg_pkg/msg/Lepton.msg
-/home/pi/catkin_ws/devel/include/lepton_msg_pkg/Lepton.h: /home/pi/catkin_ws/install/share/gencpp/msg.h.template
+/home/pi/catkin_ws/devel/include/lepton_msg_pkg/Lepton.h: /home/pi/catkin_ws/src/gencpp/scripts/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from lepton_msg_pkg/Lepton.msg"
-	cd /home/pi/catkin_ws/src/lepton_msg_pkg && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/pi/catkin_ws/src/lepton_msg_pkg/msg/Lepton.msg -Ilepton_msg_pkg:/home/pi/catkin_ws/src/lepton_msg_pkg/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p lepton_msg_pkg -o /home/pi/catkin_ws/devel/include/lepton_msg_pkg -e /home/pi/catkin_ws/install/share/gencpp/cmake/..
+	cd /home/pi/catkin_ws/src/lepton_msg_pkg && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py /home/pi/catkin_ws/src/lepton_msg_pkg/msg/Lepton.msg -Ilepton_msg_pkg:/home/pi/catkin_ws/src/lepton_msg_pkg/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p lepton_msg_pkg -o /home/pi/catkin_ws/devel/include/lepton_msg_pkg -e /home/pi/catkin_ws/src/gencpp/scripts
 
 lepton_msg_pkg_generate_messages_cpp: lepton_msg_pkg/CMakeFiles/lepton_msg_pkg_generate_messages_cpp
 lepton_msg_pkg_generate_messages_cpp: /home/pi/catkin_ws/devel/include/lepton_msg_pkg/Lepton.h

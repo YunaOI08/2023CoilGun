@@ -8,4 +8,4 @@ langs = "gencpp;geneus;genlisp;gennodejs;genpy"
 dep_include_paths_str = "rosserial_arduino;/home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg"
 PYTHON_EXECUTABLE = "/usr/bin/python3"
 package_has_static_sources = 'TRUE' == 'TRUE'
-genmsg_check_deps_script = "/home/pi/catkin_ws/install/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py"
+genmsg_check_deps_script = "/home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py"

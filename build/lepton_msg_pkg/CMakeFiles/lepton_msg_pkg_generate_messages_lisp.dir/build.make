@@ -56,10 +56,10 @@ include lepton_msg_pkg/CMakeFiles/lepton_msg_pkg_generate_messages_lisp.dir/prog
 lepton_msg_pkg/CMakeFiles/lepton_msg_pkg_generate_messages_lisp: /home/pi/catkin_ws/devel/share/common-lisp/ros/lepton_msg_pkg/msg/Lepton.lisp
 
 
-/home/pi/catkin_ws/devel/share/common-lisp/ros/lepton_msg_pkg/msg/Lepton.lisp: /home/pi/catkin_ws/install/lib/genlisp/gen_lisp.py
+/home/pi/catkin_ws/devel/share/common-lisp/ros/lepton_msg_pkg/msg/Lepton.lisp: /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py
 /home/pi/catkin_ws/devel/share/common-lisp/ros/lepton_msg_pkg/msg/Lepton.lisp: /home/pi/catkin_ws/src/lepton_msg_pkg/msg/Lepton.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from lepton_msg_pkg/Lepton.msg"
-	cd /home/pi/catkin_ws/build/lepton_msg_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/pi/catkin_ws/src/lepton_msg_pkg/msg/Lepton.msg -Ilepton_msg_pkg:/home/pi/catkin_ws/src/lepton_msg_pkg/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p lepton_msg_pkg -o /home/pi/catkin_ws/devel/share/common-lisp/ros/lepton_msg_pkg/msg
+	cd /home/pi/catkin_ws/build/lepton_msg_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py /home/pi/catkin_ws/src/lepton_msg_pkg/msg/Lepton.msg -Ilepton_msg_pkg:/home/pi/catkin_ws/src/lepton_msg_pkg/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p lepton_msg_pkg -o /home/pi/catkin_ws/devel/share/common-lisp/ros/lepton_msg_pkg/msg
 
 lepton_msg_pkg_generate_messages_lisp: lepton_msg_pkg/CMakeFiles/lepton_msg_pkg_generate_messages_lisp
 lepton_msg_pkg_generate_messages_lisp: /home/pi/catkin_ws/devel/share/common-lisp/ros/lepton_msg_pkg/msg/Lepton.lisp

@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/catkin_ws/build
 include rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_TopicInfo.dir/progress.make
 
 rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_TopicInfo:
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py rosserial_msgs /home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg/TopicInfo.msg 
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py rosserial_msgs /home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg/TopicInfo.msg 
 
 _rosserial_msgs_generate_messages_check_deps_TopicInfo: rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_TopicInfo
 _rosserial_msgs_generate_messages_check_deps_TopicInfo: rosserial/rosserial_msgs/CMakeFiles/_rosserial_msgs_generate_messages_check_deps_TopicInfo.dir/build.make

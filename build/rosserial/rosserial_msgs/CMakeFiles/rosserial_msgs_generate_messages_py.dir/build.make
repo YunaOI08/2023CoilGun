@@ -60,34 +60,34 @@ rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py: /home/p
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/srv/__init__.py
 
 
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg/_Log.py: /home/pi/catkin_ws/install/lib/genpy/genmsg_py.py
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg/_Log.py: /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg/_Log.py: /home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg/Log.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG rosserial_msgs/Log"
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg/Log.msg -Irosserial_msgs:/home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py /home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg/Log.msg -Irosserial_msgs:/home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg
 
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg/_TopicInfo.py: /home/pi/catkin_ws/install/lib/genpy/genmsg_py.py
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg/_TopicInfo.py: /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg/_TopicInfo.py: /home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg/TopicInfo.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG rosserial_msgs/TopicInfo"
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg/TopicInfo.msg -Irosserial_msgs:/home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py /home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg/TopicInfo.msg -Irosserial_msgs:/home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg
 
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/srv/_RequestParam.py: /home/pi/catkin_ws/install/lib/genpy/gensrv_py.py
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/srv/_RequestParam.py: /home/pi/catkin_ws/src/genpy/scripts/gensrv_py.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/srv/_RequestParam.py: /home/pi/catkin_ws/src/rosserial/rosserial_msgs/srv/RequestParam.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python code from SRV rosserial_msgs/RequestParam"
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/pi/catkin_ws/src/rosserial/rosserial_msgs/srv/RequestParam.srv -Irosserial_msgs:/home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/srv
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genpy/scripts/gensrv_py.py /home/pi/catkin_ws/src/rosserial/rosserial_msgs/srv/RequestParam.srv -Irosserial_msgs:/home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/srv
 
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg/__init__.py: /home/pi/catkin_ws/install/lib/genpy/genmsg_py.py
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg/__init__.py: /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg/_Log.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg/_TopicInfo.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/srv/_RequestParam.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python msg __init__.py for rosserial_msgs"
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg --initpy
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg --initpy
 
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/srv/__init__.py: /home/pi/catkin_ws/install/lib/genpy/genmsg_py.py
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/srv/__init__.py: /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/srv/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg/_Log.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/srv/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg/_TopicInfo.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/srv/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/srv/_RequestParam.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python srv __init__.py for rosserial_msgs"
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/srv --initpy
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/srv --initpy
 
 rosserial_msgs_generate_messages_py: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_py
 rosserial_msgs_generate_messages_py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_msgs/msg/_Log.py

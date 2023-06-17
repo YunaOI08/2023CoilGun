@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"rosserial_server\" -Drosserial_server_lookup_EXPORTS
 
-CXX_INCLUDES = -I/home/pi/catkin_ws/src/rosserial/rosserial_server/include -I/home/pi/catkin_ws/install/include -I/home/pi/catkin_ws/install/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/python3.7m 
+CXX_INCLUDES = -I/home/pi/catkin_ws/src/rosserial/rosserial_server/include -I/home/pi/catkin_ws/devel/include -I/home/pi/catkin_ws/devel/include/ros -I/home/pi/catkin_ws/src/ros_comm/roscpp/include -I/home/pi/catkin_ws/src/roscpp_core/cpp_common/include -I/home/pi/catkin_ws/src/roscpp_core/roscpp_serialization/include -I/home/pi/catkin_ws/src/roscpp_core/roscpp_traits/include -I/home/pi/catkin_ws/src/roscpp_core/rostime/include -I/home/pi/catkin_ws/src/rosconsole/include -I/home/pi/catkin_ws/src/std_msgs/include -I/home/pi/catkin_ws/src/ros_comm/xmlrpcpp/include -I/home/pi/catkin_ws/src/ros_comm/xmlrpcpp/include/xmlrpcpp -I/home/pi/catkin_ws/src/ros_comm/topic_tools/include -isystem /usr/include/python3.7m 
 

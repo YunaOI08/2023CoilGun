@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/catkin_ws/build
 include ros_comm/rostest/CMakeFiles/run_tests_rostest_rostest_test_distro_version.test.dir/progress.make
 
 ros_comm/rostest/CMakeFiles/run_tests_rostest_rostest_test_distro_version.test:
-	cd /home/pi/catkin_ws/build/ros_comm/rostest && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/catkin/cmake/test/run_tests.py /home/pi/catkin_ws/build/test_results/rostest/rostest-test_distro_version.xml "/usr/bin/python3 /home/pi/catkin_ws/install/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/pi/catkin_ws/src/ros_comm/rostest --package=rostest --results-filename test_distro_version.xml --results-base-dir \"/home/pi/catkin_ws/build/test_results\" /home/pi/catkin_ws/src/ros_comm/rostest/test/distro_version.test "
+	cd /home/pi/catkin_ws/build/ros_comm/rostest && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/catkin/cmake/test/run_tests.py /home/pi/catkin_ws/build/test_results/rostest/rostest-test_distro_version.xml "/usr/bin/python3 /home/pi/catkin_ws/src/ros_comm/rostest/scripts/rostest --pkgdir=/home/pi/catkin_ws/src/ros_comm/rostest --package=rostest --results-filename test_distro_version.xml --results-base-dir \"/home/pi/catkin_ws/build/test_results\" /home/pi/catkin_ws/src/ros_comm/rostest/test/distro_version.test "
 
 run_tests_rostest_rostest_test_distro_version.test: ros_comm/rostest/CMakeFiles/run_tests_rostest_rostest_test_distro_version.test
 run_tests_rostest_rostest_test_distro_version.test: ros_comm/rostest/CMakeFiles/run_tests_rostest_rostest_test_distro_version.test.dir/build.make

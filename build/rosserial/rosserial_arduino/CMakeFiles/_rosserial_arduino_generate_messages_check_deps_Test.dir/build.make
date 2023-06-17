@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/catkin_ws/build
 include rosserial/rosserial_arduino/CMakeFiles/_rosserial_arduino_generate_messages_check_deps_Test.dir/progress.make
 
 rosserial/rosserial_arduino/CMakeFiles/_rosserial_arduino_generate_messages_check_deps_Test:
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py rosserial_arduino /home/pi/catkin_ws/src/rosserial/rosserial_arduino/srv/Test.srv 
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py rosserial_arduino /home/pi/catkin_ws/src/rosserial/rosserial_arduino/srv/Test.srv 
 
 _rosserial_arduino_generate_messages_check_deps_Test: rosserial/rosserial_arduino/CMakeFiles/_rosserial_arduino_generate_messages_check_deps_Test
 _rosserial_arduino_generate_messages_check_deps_Test: rosserial/rosserial_arduino/CMakeFiles/_rosserial_arduino_generate_messages_check_deps_Test.dir/build.make

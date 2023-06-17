@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/catkin_ws/build
 include common_msgs/sensor_msgs/CMakeFiles/_sensor_msgs_generate_messages_check_deps_NavSatFix.dir/progress.make
 
 common_msgs/sensor_msgs/CMakeFiles/_sensor_msgs_generate_messages_check_deps_NavSatFix:
-	cd /home/pi/catkin_ws/build/common_msgs/sensor_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py sensor_msgs /home/pi/catkin_ws/src/common_msgs/sensor_msgs/msg/NavSatFix.msg sensor_msgs/NavSatStatus:std_msgs/Header
+	cd /home/pi/catkin_ws/build/common_msgs/sensor_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py sensor_msgs /home/pi/catkin_ws/src/common_msgs/sensor_msgs/msg/NavSatFix.msg std_msgs/Header:sensor_msgs/NavSatStatus
 
 _sensor_msgs_generate_messages_check_deps_NavSatFix: common_msgs/sensor_msgs/CMakeFiles/_sensor_msgs_generate_messages_check_deps_NavSatFix
 _sensor_msgs_generate_messages_check_deps_NavSatFix: common_msgs/sensor_msgs/CMakeFiles/_sensor_msgs_generate_messages_check_deps_NavSatFix.dir/build.make

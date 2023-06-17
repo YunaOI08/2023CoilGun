@@ -58,19 +58,19 @@ rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_eus: 
 rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_eus: /home/pi/catkin_ws/devel/share/roseus/ros/rosserial_arduino/manifest.l
 
 
-/home/pi/catkin_ws/devel/share/roseus/ros/rosserial_arduino/msg/Adc.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/rosserial_arduino/msg/Adc.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/rosserial_arduino/msg/Adc.l: /home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg/Adc.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from rosserial_arduino/Adc.msg"
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg/Adc.msg -Irosserial_arduino:/home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg -p rosserial_arduino -o /home/pi/catkin_ws/devel/share/roseus/ros/rosserial_arduino/msg
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg/Adc.msg -Irosserial_arduino:/home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg -p rosserial_arduino -o /home/pi/catkin_ws/devel/share/roseus/ros/rosserial_arduino/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/rosserial_arduino/srv/Test.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/rosserial_arduino/srv/Test.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/rosserial_arduino/srv/Test.l: /home/pi/catkin_ws/src/rosserial/rosserial_arduino/srv/Test.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from rosserial_arduino/Test.srv"
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/rosserial/rosserial_arduino/srv/Test.srv -Irosserial_arduino:/home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg -p rosserial_arduino -o /home/pi/catkin_ws/devel/share/roseus/ros/rosserial_arduino/srv
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/rosserial/rosserial_arduino/srv/Test.srv -Irosserial_arduino:/home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg -p rosserial_arduino -o /home/pi/catkin_ws/devel/share/roseus/ros/rosserial_arduino/srv
 
-/home/pi/catkin_ws/devel/share/roseus/ros/rosserial_arduino/manifest.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/rosserial_arduino/manifest.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for rosserial_arduino"
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/pi/catkin_ws/devel/share/roseus/ros/rosserial_arduino rosserial_arduino
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py -m -o /home/pi/catkin_ws/devel/share/roseus/ros/rosserial_arduino rosserial_arduino
 
 rosserial_arduino_generate_messages_eus: rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_eus
 rosserial_arduino_generate_messages_eus: /home/pi/catkin_ws/devel/share/roseus/ros/rosserial_arduino/msg/Adc.l

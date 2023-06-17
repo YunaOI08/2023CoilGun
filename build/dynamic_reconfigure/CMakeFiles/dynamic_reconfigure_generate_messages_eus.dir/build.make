@@ -67,84 +67,84 @@ dynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_eus: /home/
 dynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_eus: /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/manifest.l
 
 
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/BoolParameter.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/BoolParameter.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/BoolParameter.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/BoolParameter.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from dynamic_reconfigure/BoolParameter.msg"
-	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/msg/BoolParameter.msg -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg
+	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/msg/BoolParameter.msg -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/Config.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/Config.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/Config.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/Config.msg
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/Config.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/DoubleParameter.msg
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/Config.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/GroupState.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/Config.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/BoolParameter.msg
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/Config.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/IntParameter.msg
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/Config.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/DoubleParameter.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/Config.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/StrParameter.msg
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/Config.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/GroupState.msg
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/Config.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/IntParameter.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from dynamic_reconfigure/Config.msg"
-	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/msg/Config.msg -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg
+	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/msg/Config.msg -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/Group.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/Group.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/Group.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/Group.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/Group.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/ParamDescription.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from dynamic_reconfigure/Group.msg"
-	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/msg/Group.msg -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg
+	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/msg/Group.msg -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/IntParameter.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/IntParameter.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/IntParameter.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/IntParameter.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from dynamic_reconfigure/IntParameter.msg"
-	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/msg/IntParameter.msg -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg
+	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/msg/IntParameter.msg -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/SensorLevels.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/SensorLevels.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/SensorLevels.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/SensorLevels.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from dynamic_reconfigure/SensorLevels.msg"
-	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/msg/SensorLevels.msg -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg
+	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/msg/SensorLevels.msg -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/ConfigDescription.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/ConfigDescription.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/ConfigDescription.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/ConfigDescription.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/ConfigDescription.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/Config.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/ConfigDescription.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/Group.msg
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/ConfigDescription.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/DoubleParameter.msg
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/ConfigDescription.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/ParamDescription.msg
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/ConfigDescription.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/GroupState.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/ConfigDescription.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/BoolParameter.msg
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/ConfigDescription.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/IntParameter.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/ConfigDescription.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/StrParameter.msg
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/ConfigDescription.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/DoubleParameter.msg
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/ConfigDescription.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/GroupState.msg
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/ConfigDescription.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/ParamDescription.msg
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/ConfigDescription.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/IntParameter.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating EusLisp code from dynamic_reconfigure/ConfigDescription.msg"
-	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/msg/ConfigDescription.msg -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg
+	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/msg/ConfigDescription.msg -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/DoubleParameter.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/DoubleParameter.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/DoubleParameter.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/DoubleParameter.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating EusLisp code from dynamic_reconfigure/DoubleParameter.msg"
-	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/msg/DoubleParameter.msg -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg
+	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/msg/DoubleParameter.msg -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/GroupState.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/GroupState.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/GroupState.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/GroupState.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating EusLisp code from dynamic_reconfigure/GroupState.msg"
-	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/msg/GroupState.msg -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg
+	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/msg/GroupState.msg -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/ParamDescription.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/ParamDescription.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/ParamDescription.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/ParamDescription.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating EusLisp code from dynamic_reconfigure/ParamDescription.msg"
-	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/msg/ParamDescription.msg -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg
+	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/msg/ParamDescription.msg -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/StrParameter.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/StrParameter.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/StrParameter.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/StrParameter.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating EusLisp code from dynamic_reconfigure/StrParameter.msg"
-	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/msg/StrParameter.msg -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg
+	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/msg/StrParameter.msg -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/srv/Reconfigure.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/srv/Reconfigure.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/srv/Reconfigure.l: /home/pi/catkin_ws/src/dynamic_reconfigure/srv/Reconfigure.srv
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/srv/Reconfigure.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/Config.msg
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/srv/Reconfigure.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/DoubleParameter.msg
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/srv/Reconfigure.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/GroupState.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/srv/Reconfigure.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/BoolParameter.msg
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/srv/Reconfigure.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/IntParameter.msg
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/srv/Reconfigure.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/DoubleParameter.msg
 /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/srv/Reconfigure.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/StrParameter.msg
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/srv/Reconfigure.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/GroupState.msg
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/srv/Reconfigure.l: /home/pi/catkin_ws/src/dynamic_reconfigure/msg/IntParameter.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating EusLisp code from dynamic_reconfigure/Reconfigure.srv"
-	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/srv/Reconfigure.srv -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/srv
+	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/dynamic_reconfigure/srv/Reconfigure.srv -Idynamic_reconfigure:/home/pi/catkin_ws/src/dynamic_reconfigure/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p dynamic_reconfigure -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/srv
 
-/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/manifest.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/manifest.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating EusLisp manifest code for dynamic_reconfigure"
-	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure dynamic_reconfigure std_msgs
+	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py -m -o /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure dynamic_reconfigure std_msgs
 
 dynamic_reconfigure_generate_messages_eus: dynamic_reconfigure/CMakeFiles/dynamic_reconfigure_generate_messages_eus
 dynamic_reconfigure_generate_messages_eus: /home/pi/catkin_ws/devel/share/roseus/ros/dynamic_reconfigure/msg/BoolParameter.l

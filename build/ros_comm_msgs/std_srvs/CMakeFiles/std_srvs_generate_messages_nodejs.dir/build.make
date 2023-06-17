@@ -58,20 +58,20 @@ ros_comm_msgs/std_srvs/CMakeFiles/std_srvs_generate_messages_nodejs: /home/pi/ca
 ros_comm_msgs/std_srvs/CMakeFiles/std_srvs_generate_messages_nodejs: /home/pi/catkin_ws/devel/share/gennodejs/ros/std_srvs/srv/Trigger.js
 
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/std_srvs/srv/Empty.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/std_srvs/srv/Empty.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/std_srvs/srv/Empty.js: /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Empty.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from std_srvs/Empty.srv"
-	cd /home/pi/catkin_ws/build/ros_comm_msgs/std_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Empty.srv -p std_srvs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/std_srvs/srv
+	cd /home/pi/catkin_ws/build/ros_comm_msgs/std_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Empty.srv -p std_srvs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/std_srvs/srv
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/std_srvs/srv/SetBool.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/std_srvs/srv/SetBool.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/std_srvs/srv/SetBool.js: /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/SetBool.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from std_srvs/SetBool.srv"
-	cd /home/pi/catkin_ws/build/ros_comm_msgs/std_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/SetBool.srv -p std_srvs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/std_srvs/srv
+	cd /home/pi/catkin_ws/build/ros_comm_msgs/std_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/SetBool.srv -p std_srvs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/std_srvs/srv
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/std_srvs/srv/Trigger.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/std_srvs/srv/Trigger.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/std_srvs/srv/Trigger.js: /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Trigger.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from std_srvs/Trigger.srv"
-	cd /home/pi/catkin_ws/build/ros_comm_msgs/std_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Trigger.srv -p std_srvs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/std_srvs/srv
+	cd /home/pi/catkin_ws/build/ros_comm_msgs/std_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Trigger.srv -p std_srvs -o /home/pi/catkin_ws/devel/share/gennodejs/ros/std_srvs/srv
 
 std_srvs_generate_messages_nodejs: ros_comm_msgs/std_srvs/CMakeFiles/std_srvs_generate_messages_nodejs
 std_srvs_generate_messages_nodejs: /home/pi/catkin_ws/devel/share/gennodejs/ros/std_srvs/srv/Empty.js

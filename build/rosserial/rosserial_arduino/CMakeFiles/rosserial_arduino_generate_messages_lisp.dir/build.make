@@ -57,15 +57,15 @@ rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_lisp:
 rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_lisp: /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_arduino/srv/Test.lisp
 
 
-/home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_arduino/msg/Adc.lisp: /home/pi/catkin_ws/install/lib/genlisp/gen_lisp.py
+/home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_arduino/msg/Adc.lisp: /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py
 /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_arduino/msg/Adc.lisp: /home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg/Adc.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from rosserial_arduino/Adc.msg"
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg/Adc.msg -Irosserial_arduino:/home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg -p rosserial_arduino -o /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_arduino/msg
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py /home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg/Adc.msg -Irosserial_arduino:/home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg -p rosserial_arduino -o /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_arduino/msg
 
-/home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_arduino/srv/Test.lisp: /home/pi/catkin_ws/install/lib/genlisp/gen_lisp.py
+/home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_arduino/srv/Test.lisp: /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py
 /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_arduino/srv/Test.lisp: /home/pi/catkin_ws/src/rosserial/rosserial_arduino/srv/Test.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from rosserial_arduino/Test.srv"
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/pi/catkin_ws/src/rosserial/rosserial_arduino/srv/Test.srv -Irosserial_arduino:/home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg -p rosserial_arduino -o /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_arduino/srv
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py /home/pi/catkin_ws/src/rosserial/rosserial_arduino/srv/Test.srv -Irosserial_arduino:/home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg -p rosserial_arduino -o /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_arduino/srv
 
 rosserial_arduino_generate_messages_lisp: rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_lisp
 rosserial_arduino_generate_messages_lisp: /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_arduino/msg/Adc.lisp

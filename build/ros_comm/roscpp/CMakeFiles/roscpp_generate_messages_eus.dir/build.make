@@ -60,30 +60,30 @@ ros_comm/roscpp/CMakeFiles/roscpp_generate_messages_eus: /home/pi/catkin_ws/deve
 ros_comm/roscpp/CMakeFiles/roscpp_generate_messages_eus: /home/pi/catkin_ws/devel/share/roseus/ros/roscpp/manifest.l
 
 
-/home/pi/catkin_ws/devel/share/roseus/ros/roscpp/msg/Logger.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/roscpp/msg/Logger.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/roscpp/msg/Logger.l: /home/pi/catkin_ws/src/ros_comm/roscpp/msg/Logger.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from roscpp/Logger.msg"
-	cd /home/pi/catkin_ws/build/ros_comm/roscpp && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/ros_comm/roscpp/msg/Logger.msg -Iroscpp:/home/pi/catkin_ws/src/ros_comm/roscpp/msg -p roscpp -o /home/pi/catkin_ws/devel/share/roseus/ros/roscpp/msg
+	cd /home/pi/catkin_ws/build/ros_comm/roscpp && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/ros_comm/roscpp/msg/Logger.msg -Iroscpp:/home/pi/catkin_ws/src/ros_comm/roscpp/msg -p roscpp -o /home/pi/catkin_ws/devel/share/roseus/ros/roscpp/msg
 
-/home/pi/catkin_ws/devel/share/roseus/ros/roscpp/srv/Empty.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/roscpp/srv/Empty.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/roscpp/srv/Empty.l: /home/pi/catkin_ws/src/ros_comm/roscpp/srv/Empty.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from roscpp/Empty.srv"
-	cd /home/pi/catkin_ws/build/ros_comm/roscpp && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/ros_comm/roscpp/srv/Empty.srv -Iroscpp:/home/pi/catkin_ws/src/ros_comm/roscpp/msg -p roscpp -o /home/pi/catkin_ws/devel/share/roseus/ros/roscpp/srv
+	cd /home/pi/catkin_ws/build/ros_comm/roscpp && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/ros_comm/roscpp/srv/Empty.srv -Iroscpp:/home/pi/catkin_ws/src/ros_comm/roscpp/msg -p roscpp -o /home/pi/catkin_ws/devel/share/roseus/ros/roscpp/srv
 
-/home/pi/catkin_ws/devel/share/roseus/ros/roscpp/srv/GetLoggers.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/roscpp/srv/GetLoggers.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/roscpp/srv/GetLoggers.l: /home/pi/catkin_ws/src/ros_comm/roscpp/srv/GetLoggers.srv
 /home/pi/catkin_ws/devel/share/roseus/ros/roscpp/srv/GetLoggers.l: /home/pi/catkin_ws/src/ros_comm/roscpp/msg/Logger.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from roscpp/GetLoggers.srv"
-	cd /home/pi/catkin_ws/build/ros_comm/roscpp && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/ros_comm/roscpp/srv/GetLoggers.srv -Iroscpp:/home/pi/catkin_ws/src/ros_comm/roscpp/msg -p roscpp -o /home/pi/catkin_ws/devel/share/roseus/ros/roscpp/srv
+	cd /home/pi/catkin_ws/build/ros_comm/roscpp && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/ros_comm/roscpp/srv/GetLoggers.srv -Iroscpp:/home/pi/catkin_ws/src/ros_comm/roscpp/msg -p roscpp -o /home/pi/catkin_ws/devel/share/roseus/ros/roscpp/srv
 
-/home/pi/catkin_ws/devel/share/roseus/ros/roscpp/srv/SetLoggerLevel.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/roscpp/srv/SetLoggerLevel.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
 /home/pi/catkin_ws/devel/share/roseus/ros/roscpp/srv/SetLoggerLevel.l: /home/pi/catkin_ws/src/ros_comm/roscpp/srv/SetLoggerLevel.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from roscpp/SetLoggerLevel.srv"
-	cd /home/pi/catkin_ws/build/ros_comm/roscpp && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/catkin_ws/src/ros_comm/roscpp/srv/SetLoggerLevel.srv -Iroscpp:/home/pi/catkin_ws/src/ros_comm/roscpp/msg -p roscpp -o /home/pi/catkin_ws/devel/share/roseus/ros/roscpp/srv
+	cd /home/pi/catkin_ws/build/ros_comm/roscpp && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py /home/pi/catkin_ws/src/ros_comm/roscpp/srv/SetLoggerLevel.srv -Iroscpp:/home/pi/catkin_ws/src/ros_comm/roscpp/msg -p roscpp -o /home/pi/catkin_ws/devel/share/roseus/ros/roscpp/srv
 
-/home/pi/catkin_ws/devel/share/roseus/ros/roscpp/manifest.l: /home/pi/catkin_ws/install/lib/geneus/gen_eus.py
+/home/pi/catkin_ws/devel/share/roseus/ros/roscpp/manifest.l: /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp manifest code for roscpp"
-	cd /home/pi/catkin_ws/build/ros_comm/roscpp && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/pi/catkin_ws/devel/share/roseus/ros/roscpp roscpp
+	cd /home/pi/catkin_ws/build/ros_comm/roscpp && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/geneus/scripts/gen_eus.py -m -o /home/pi/catkin_ws/devel/share/roseus/ros/roscpp roscpp
 
 roscpp_generate_messages_eus: ros_comm/roscpp/CMakeFiles/roscpp_generate_messages_eus
 roscpp_generate_messages_eus: /home/pi/catkin_ws/devel/share/roseus/ros/roscpp/msg/Logger.l

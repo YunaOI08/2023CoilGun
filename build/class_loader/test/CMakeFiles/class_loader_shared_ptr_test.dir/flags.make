@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wextra -Wpedantic -DGTEST_HAS_PTHREAD=1 -pthread -std=gnu++
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1
 
-CXX_INCLUDES = -I/home/pi/catkin_ws/src/class_loader/include -I/home/pi/catkin_ws/install/include -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest 
+CXX_INCLUDES = -I/home/pi/catkin_ws/src/class_loader/include -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest 
 

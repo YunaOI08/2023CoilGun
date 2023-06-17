@@ -56,10 +56,10 @@ include lepton_msg_pkg/CMakeFiles/lepton_msg_pkg_generate_messages_nodejs.dir/pr
 lepton_msg_pkg/CMakeFiles/lepton_msg_pkg_generate_messages_nodejs: /home/pi/catkin_ws/devel/share/gennodejs/ros/lepton_msg_pkg/msg/Lepton.js
 
 
-/home/pi/catkin_ws/devel/share/gennodejs/ros/lepton_msg_pkg/msg/Lepton.js: /home/pi/catkin_ws/install/lib/gennodejs/gen_nodejs.py
+/home/pi/catkin_ws/devel/share/gennodejs/ros/lepton_msg_pkg/msg/Lepton.js: /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py
 /home/pi/catkin_ws/devel/share/gennodejs/ros/lepton_msg_pkg/msg/Lepton.js: /home/pi/catkin_ws/src/lepton_msg_pkg/msg/Lepton.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from lepton_msg_pkg/Lepton.msg"
-	cd /home/pi/catkin_ws/build/lepton_msg_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/pi/catkin_ws/src/lepton_msg_pkg/msg/Lepton.msg -Ilepton_msg_pkg:/home/pi/catkin_ws/src/lepton_msg_pkg/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p lepton_msg_pkg -o /home/pi/catkin_ws/devel/share/gennodejs/ros/lepton_msg_pkg/msg
+	cd /home/pi/catkin_ws/build/lepton_msg_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gennodejs/scripts/gen_nodejs.py /home/pi/catkin_ws/src/lepton_msg_pkg/msg/Lepton.msg -Ilepton_msg_pkg:/home/pi/catkin_ws/src/lepton_msg_pkg/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p lepton_msg_pkg -o /home/pi/catkin_ws/devel/share/gennodejs/ros/lepton_msg_pkg/msg
 
 lepton_msg_pkg_generate_messages_nodejs: lepton_msg_pkg/CMakeFiles/lepton_msg_pkg_generate_messages_nodejs
 lepton_msg_pkg_generate_messages_nodejs: /home/pi/catkin_ws/devel/share/gennodejs/ros/lepton_msg_pkg/msg/Lepton.js

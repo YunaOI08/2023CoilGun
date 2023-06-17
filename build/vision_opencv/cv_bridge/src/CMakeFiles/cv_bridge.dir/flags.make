@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DPYTHON3 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cv_bridge\" -Dcv_bridge_EXPORTS
 
-CXX_INCLUDES = -I/home/pi/catkin_ws/src/vision_opencv/cv_bridge/include -I/home/pi/catkin_ws/install/include -I/home/pi/catkin_ws/src/vision_opencv/cv_bridge/src/. -I/usr/include/python3.7m -I/usr/local/lib/python3.7/dist-packages/numpy/core/include -isystem /usr/include/opencv 
+CXX_INCLUDES = -I/home/pi/catkin_ws/src/vision_opencv/cv_bridge/include -I/home/pi/catkin_ws/devel/include -I/home/pi/catkin_ws/src/rosconsole/include -I/home/pi/catkin_ws/src/roscpp_core/cpp_common/include -I/home/pi/catkin_ws/src/roscpp_core/rostime/include -I/home/pi/catkin_ws/src/common_msgs/sensor_msgs/include -I/home/pi/catkin_ws/src/roscpp_core/roscpp_serialization/include -I/home/pi/catkin_ws/src/roscpp_core/roscpp_traits/include -I/home/pi/catkin_ws/src/std_msgs/include -I/home/pi/catkin_ws/src/vision_opencv/cv_bridge/src/. -I/usr/include/python3.7m -I/usr/local/lib/python3.7/dist-packages/numpy/core/include -isystem /usr/include/opencv 
 

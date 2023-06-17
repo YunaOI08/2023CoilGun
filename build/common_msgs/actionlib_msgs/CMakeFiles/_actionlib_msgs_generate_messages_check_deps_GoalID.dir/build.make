@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/catkin_ws/build
 include common_msgs/actionlib_msgs/CMakeFiles/_actionlib_msgs_generate_messages_check_deps_GoalID.dir/progress.make
 
 common_msgs/actionlib_msgs/CMakeFiles/_actionlib_msgs_generate_messages_check_deps_GoalID:
-	cd /home/pi/catkin_ws/build/common_msgs/actionlib_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py actionlib_msgs /home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg/GoalID.msg 
+	cd /home/pi/catkin_ws/build/common_msgs/actionlib_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py actionlib_msgs /home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg/GoalID.msg 
 
 _actionlib_msgs_generate_messages_check_deps_GoalID: common_msgs/actionlib_msgs/CMakeFiles/_actionlib_msgs_generate_messages_check_deps_GoalID
 _actionlib_msgs_generate_messages_check_deps_GoalID: common_msgs/actionlib_msgs/CMakeFiles/_actionlib_msgs_generate_messages_check_deps_GoalID.dir/build.make

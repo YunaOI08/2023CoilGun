@@ -5,7 +5,7 @@ services_str = "/home/pi/catkin_ws/src/common_msgs/nav_msgs/srv/GetMap.srv;/home
 pkg_name = "nav_msgs"
 dependencies_str = "geometry_msgs;std_msgs;actionlib_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"
-dep_include_paths_str = "nav_msgs;/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg;nav_msgs;/home/pi/catkin_ws/devel/share/nav_msgs/msg;geometry_msgs;/home/pi/catkin_ws/install/share/geometry_msgs/cmake/../msg;std_msgs;/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg;actionlib_msgs;/home/pi/catkin_ws/install/share/actionlib_msgs/cmake/../msg"
+dep_include_paths_str = "nav_msgs;/home/pi/catkin_ws/src/common_msgs/nav_msgs/msg;nav_msgs;/home/pi/catkin_ws/devel/share/nav_msgs/msg;geometry_msgs;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg;std_msgs;/home/pi/catkin_ws/src/std_msgs/msg;actionlib_msgs;/home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg"
 PYTHON_EXECUTABLE = "/usr/bin/python3"
 package_has_static_sources = '' == 'TRUE'
-genmsg_check_deps_script = "/home/pi/catkin_ws/install/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py"
+genmsg_check_deps_script = "/home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py"

@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/home/pi/catkin_ws/install/include;/usr/include")
+set(ORDERED_PATHS "/home/pi/catkin_ws/src/class_loader/include;/usr/include")

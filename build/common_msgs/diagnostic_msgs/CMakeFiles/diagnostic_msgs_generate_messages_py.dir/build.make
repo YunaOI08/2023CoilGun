@@ -62,54 +62,54 @@ common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_py: /ho
 common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/__init__.py
 
 
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_DiagnosticArray.py: /home/pi/catkin_ws/install/lib/genpy/genmsg_py.py
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_DiagnosticArray.py: /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_DiagnosticArray.py: /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticArray.msg
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_DiagnosticArray.py: /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_DiagnosticArray.py: /home/pi/catkin_ws/src/std_msgs/msg/Header.msg
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_DiagnosticArray.py: /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_DiagnosticArray.py: /home/pi/catkin_ws/install/share/std_msgs/msg/Header.msg
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_DiagnosticArray.py: /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG diagnostic_msgs/DiagnosticArray"
-	cd /home/pi/catkin_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticArray.msg -Idiagnostic_msgs:/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p diagnostic_msgs -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg
+	cd /home/pi/catkin_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticArray.msg -Idiagnostic_msgs:/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p diagnostic_msgs -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg
 
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_DiagnosticStatus.py: /home/pi/catkin_ws/install/lib/genpy/genmsg_py.py
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_DiagnosticStatus.py: /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_DiagnosticStatus.py: /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_DiagnosticStatus.py: /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG diagnostic_msgs/DiagnosticStatus"
-	cd /home/pi/catkin_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg -Idiagnostic_msgs:/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p diagnostic_msgs -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg
+	cd /home/pi/catkin_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg -Idiagnostic_msgs:/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p diagnostic_msgs -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg
 
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_KeyValue.py: /home/pi/catkin_ws/install/lib/genpy/genmsg_py.py
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_KeyValue.py: /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_KeyValue.py: /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG diagnostic_msgs/KeyValue"
-	cd /home/pi/catkin_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg -Idiagnostic_msgs:/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p diagnostic_msgs -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg
+	cd /home/pi/catkin_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg -Idiagnostic_msgs:/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p diagnostic_msgs -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg
 
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/_AddDiagnostics.py: /home/pi/catkin_ws/install/lib/genpy/gensrv_py.py
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/_AddDiagnostics.py: /home/pi/catkin_ws/src/genpy/scripts/gensrv_py.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/_AddDiagnostics.py: /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/srv/AddDiagnostics.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python code from SRV diagnostic_msgs/AddDiagnostics"
-	cd /home/pi/catkin_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/srv/AddDiagnostics.srv -Idiagnostic_msgs:/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p diagnostic_msgs -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv
+	cd /home/pi/catkin_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genpy/scripts/gensrv_py.py /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/srv/AddDiagnostics.srv -Idiagnostic_msgs:/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p diagnostic_msgs -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv
 
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/_SelfTest.py: /home/pi/catkin_ws/install/lib/genpy/gensrv_py.py
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/_SelfTest.py: /home/pi/catkin_ws/src/genpy/scripts/gensrv_py.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/_SelfTest.py: /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/srv/SelfTest.srv
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/_SelfTest.py: /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/_SelfTest.py: /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/_SelfTest.py: /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python code from SRV diagnostic_msgs/SelfTest"
-	cd /home/pi/catkin_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/srv/SelfTest.srv -Idiagnostic_msgs:/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p diagnostic_msgs -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv
+	cd /home/pi/catkin_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genpy/scripts/gensrv_py.py /home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/srv/SelfTest.srv -Idiagnostic_msgs:/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p diagnostic_msgs -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv
 
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/__init__.py: /home/pi/catkin_ws/install/lib/genpy/genmsg_py.py
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/__init__.py: /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_DiagnosticArray.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_DiagnosticStatus.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_KeyValue.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/_AddDiagnostics.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/_SelfTest.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python msg __init__.py for diagnostic_msgs"
-	cd /home/pi/catkin_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg --initpy
+	cd /home/pi/catkin_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg --initpy
 
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/__init__.py: /home/pi/catkin_ws/install/lib/genpy/genmsg_py.py
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/__init__.py: /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_DiagnosticArray.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_DiagnosticStatus.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_KeyValue.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/_AddDiagnostics.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv/_SelfTest.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python srv __init__.py for diagnostic_msgs"
-	cd /home/pi/catkin_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv --initpy
+	cd /home/pi/catkin_ws/build/common_msgs/diagnostic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/srv --initpy
 
 diagnostic_msgs_generate_messages_py: common_msgs/diagnostic_msgs/CMakeFiles/diagnostic_msgs_generate_messages_py
 diagnostic_msgs_generate_messages_py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/diagnostic_msgs/msg/_DiagnosticArray.py

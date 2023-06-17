@@ -58,20 +58,20 @@ rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp: /home
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp: /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_msgs/srv/RequestParam.lisp
 
 
-/home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_msgs/msg/Log.lisp: /home/pi/catkin_ws/install/lib/genlisp/gen_lisp.py
+/home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_msgs/msg/Log.lisp: /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py
 /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_msgs/msg/Log.lisp: /home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg/Log.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from rosserial_msgs/Log.msg"
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg/Log.msg -Irosserial_msgs:/home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_msgs/msg
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py /home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg/Log.msg -Irosserial_msgs:/home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_msgs/msg
 
-/home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_msgs/msg/TopicInfo.lisp: /home/pi/catkin_ws/install/lib/genlisp/gen_lisp.py
+/home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_msgs/msg/TopicInfo.lisp: /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py
 /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_msgs/msg/TopicInfo.lisp: /home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg/TopicInfo.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from rosserial_msgs/TopicInfo.msg"
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg/TopicInfo.msg -Irosserial_msgs:/home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_msgs/msg
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py /home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg/TopicInfo.msg -Irosserial_msgs:/home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_msgs/msg
 
-/home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_msgs/srv/RequestParam.lisp: /home/pi/catkin_ws/install/lib/genlisp/gen_lisp.py
+/home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_msgs/srv/RequestParam.lisp: /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py
 /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_msgs/srv/RequestParam.lisp: /home/pi/catkin_ws/src/rosserial/rosserial_msgs/srv/RequestParam.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from rosserial_msgs/RequestParam.srv"
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/pi/catkin_ws/src/rosserial/rosserial_msgs/srv/RequestParam.srv -Irosserial_msgs:/home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_msgs/srv
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py /home/pi/catkin_ws/src/rosserial/rosserial_msgs/srv/RequestParam.srv -Irosserial_msgs:/home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_msgs/srv
 
 rosserial_msgs_generate_messages_lisp: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_lisp
 rosserial_msgs_generate_messages_lisp: /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_msgs/msg/Log.lisp

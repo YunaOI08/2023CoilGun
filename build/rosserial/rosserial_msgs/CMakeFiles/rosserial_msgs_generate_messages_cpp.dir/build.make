@@ -58,24 +58,24 @@ rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp: /home/
 rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp: /home/pi/catkin_ws/devel/include/rosserial_msgs/RequestParam.h
 
 
-/home/pi/catkin_ws/devel/include/rosserial_msgs/Log.h: /home/pi/catkin_ws/install/lib/gencpp/gen_cpp.py
+/home/pi/catkin_ws/devel/include/rosserial_msgs/Log.h: /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py
 /home/pi/catkin_ws/devel/include/rosserial_msgs/Log.h: /home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg/Log.msg
-/home/pi/catkin_ws/devel/include/rosserial_msgs/Log.h: /home/pi/catkin_ws/install/share/gencpp/msg.h.template
+/home/pi/catkin_ws/devel/include/rosserial_msgs/Log.h: /home/pi/catkin_ws/src/gencpp/scripts/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from rosserial_msgs/Log.msg"
-	cd /home/pi/catkin_ws/src/rosserial/rosserial_msgs && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg/Log.msg -Irosserial_msgs:/home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/pi/catkin_ws/devel/include/rosserial_msgs -e /home/pi/catkin_ws/install/share/gencpp/cmake/..
+	cd /home/pi/catkin_ws/src/rosserial/rosserial_msgs && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py /home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg/Log.msg -Irosserial_msgs:/home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/pi/catkin_ws/devel/include/rosserial_msgs -e /home/pi/catkin_ws/src/gencpp/scripts
 
-/home/pi/catkin_ws/devel/include/rosserial_msgs/TopicInfo.h: /home/pi/catkin_ws/install/lib/gencpp/gen_cpp.py
+/home/pi/catkin_ws/devel/include/rosserial_msgs/TopicInfo.h: /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py
 /home/pi/catkin_ws/devel/include/rosserial_msgs/TopicInfo.h: /home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg/TopicInfo.msg
-/home/pi/catkin_ws/devel/include/rosserial_msgs/TopicInfo.h: /home/pi/catkin_ws/install/share/gencpp/msg.h.template
+/home/pi/catkin_ws/devel/include/rosserial_msgs/TopicInfo.h: /home/pi/catkin_ws/src/gencpp/scripts/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from rosserial_msgs/TopicInfo.msg"
-	cd /home/pi/catkin_ws/src/rosserial/rosserial_msgs && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg/TopicInfo.msg -Irosserial_msgs:/home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/pi/catkin_ws/devel/include/rosserial_msgs -e /home/pi/catkin_ws/install/share/gencpp/cmake/..
+	cd /home/pi/catkin_ws/src/rosserial/rosserial_msgs && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py /home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg/TopicInfo.msg -Irosserial_msgs:/home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/pi/catkin_ws/devel/include/rosserial_msgs -e /home/pi/catkin_ws/src/gencpp/scripts
 
-/home/pi/catkin_ws/devel/include/rosserial_msgs/RequestParam.h: /home/pi/catkin_ws/install/lib/gencpp/gen_cpp.py
+/home/pi/catkin_ws/devel/include/rosserial_msgs/RequestParam.h: /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py
 /home/pi/catkin_ws/devel/include/rosserial_msgs/RequestParam.h: /home/pi/catkin_ws/src/rosserial/rosserial_msgs/srv/RequestParam.srv
-/home/pi/catkin_ws/devel/include/rosserial_msgs/RequestParam.h: /home/pi/catkin_ws/install/share/gencpp/msg.h.template
-/home/pi/catkin_ws/devel/include/rosserial_msgs/RequestParam.h: /home/pi/catkin_ws/install/share/gencpp/srv.h.template
+/home/pi/catkin_ws/devel/include/rosserial_msgs/RequestParam.h: /home/pi/catkin_ws/src/gencpp/scripts/msg.h.template
+/home/pi/catkin_ws/devel/include/rosserial_msgs/RequestParam.h: /home/pi/catkin_ws/src/gencpp/scripts/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from rosserial_msgs/RequestParam.srv"
-	cd /home/pi/catkin_ws/src/rosserial/rosserial_msgs && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/pi/catkin_ws/src/rosserial/rosserial_msgs/srv/RequestParam.srv -Irosserial_msgs:/home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/pi/catkin_ws/devel/include/rosserial_msgs -e /home/pi/catkin_ws/install/share/gencpp/cmake/..
+	cd /home/pi/catkin_ws/src/rosserial/rosserial_msgs && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py /home/pi/catkin_ws/src/rosserial/rosserial_msgs/srv/RequestParam.srv -Irosserial_msgs:/home/pi/catkin_ws/src/rosserial/rosserial_msgs/msg -p rosserial_msgs -o /home/pi/catkin_ws/devel/include/rosserial_msgs -e /home/pi/catkin_ws/src/gencpp/scripts
 
 rosserial_msgs_generate_messages_cpp: rosserial/rosserial_msgs/CMakeFiles/rosserial_msgs_generate_messages_cpp
 rosserial_msgs_generate_messages_cpp: /home/pi/catkin_ws/devel/include/rosserial_msgs/Log.h

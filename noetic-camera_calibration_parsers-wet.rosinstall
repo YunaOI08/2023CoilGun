@@ -1,0 +1,5 @@
+- tar:
+    local-name: image_common/camera_calibration_parsers
+    uri: https://github.com/ros-gbp/image_common-release/archive/release/noetic/camera_calibration_parsers/1.12.0-1.tar.gz
+    version: image_common-release-release-noetic-camera_calibration_parsers-1.12.0-1
+

@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/pi/catkin_ws/src/ros_comm/roslz4/include"
-  "/home/pi/catkin_ws/install/include"
+  "/home/pi/catkin_ws/src/roscpp_core/cpp_common/include"
   "/usr/include/python3.7m"
   )
 

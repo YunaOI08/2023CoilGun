@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/catkin_ws/build
 include std_msgs/CMakeFiles/_std_msgs_generate_messages_check_deps_Int64.dir/progress.make
 
 std_msgs/CMakeFiles/_std_msgs_generate_messages_check_deps_Int64:
-	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py std_msgs /home/pi/catkin_ws/src/std_msgs/msg/Int64.msg 
+	cd /home/pi/catkin_ws/build/std_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py std_msgs /home/pi/catkin_ws/src/std_msgs/msg/Int64.msg 
 
 _std_msgs_generate_messages_check_deps_Int64: std_msgs/CMakeFiles/_std_msgs_generate_messages_check_deps_Int64
 _std_msgs_generate_messages_check_deps_Int64: std_msgs/CMakeFiles/_std_msgs_generate_messages_check_deps_Int64.dir/build.make

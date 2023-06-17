@@ -57,15 +57,15 @@ rosserial/rosserial_mbed/CMakeFiles/rosserial_mbed_generate_messages_lisp: /home
 rosserial/rosserial_mbed/CMakeFiles/rosserial_mbed_generate_messages_lisp: /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_mbed/srv/Test.lisp
 
 
-/home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_mbed/msg/Adc.lisp: /home/pi/catkin_ws/install/lib/genlisp/gen_lisp.py
+/home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_mbed/msg/Adc.lisp: /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py
 /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_mbed/msg/Adc.lisp: /home/pi/catkin_ws/src/rosserial/rosserial_mbed/msg/Adc.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from rosserial_mbed/Adc.msg"
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_mbed && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/pi/catkin_ws/src/rosserial/rosserial_mbed/msg/Adc.msg -Irosserial_mbed:/home/pi/catkin_ws/src/rosserial/rosserial_mbed/msg -p rosserial_mbed -o /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_mbed/msg
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_mbed && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py /home/pi/catkin_ws/src/rosserial/rosserial_mbed/msg/Adc.msg -Irosserial_mbed:/home/pi/catkin_ws/src/rosserial/rosserial_mbed/msg -p rosserial_mbed -o /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_mbed/msg
 
-/home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_mbed/srv/Test.lisp: /home/pi/catkin_ws/install/lib/genlisp/gen_lisp.py
+/home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_mbed/srv/Test.lisp: /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py
 /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_mbed/srv/Test.lisp: /home/pi/catkin_ws/src/rosserial/rosserial_mbed/srv/Test.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from rosserial_mbed/Test.srv"
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_mbed && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/pi/catkin_ws/src/rosserial/rosserial_mbed/srv/Test.srv -Irosserial_mbed:/home/pi/catkin_ws/src/rosserial/rosserial_mbed/msg -p rosserial_mbed -o /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_mbed/srv
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_mbed && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py /home/pi/catkin_ws/src/rosserial/rosserial_mbed/srv/Test.srv -Irosserial_mbed:/home/pi/catkin_ws/src/rosserial/rosserial_mbed/msg -p rosserial_mbed -o /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_mbed/srv
 
 rosserial_mbed_generate_messages_lisp: rosserial/rosserial_mbed/CMakeFiles/rosserial_mbed_generate_messages_lisp
 rosserial_mbed_generate_messages_lisp: /home/pi/catkin_ws/devel/share/common-lisp/ros/rosserial_mbed/msg/Adc.lisp

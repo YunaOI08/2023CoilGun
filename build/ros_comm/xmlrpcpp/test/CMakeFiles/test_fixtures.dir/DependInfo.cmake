@@ -18,7 +18,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/pi/catkin_ws/src/ros_comm/xmlrpcpp/include"
   "/home/pi/catkin_ws/src/ros_comm/xmlrpcpp/libb64/include"
-  "/home/pi/catkin_ws/install/include"
+  "/home/pi/catkin_ws/src/roscpp_core/cpp_common/include"
+  "/home/pi/catkin_ws/src/roscpp_core/rostime/include"
   "/usr/src/googletest/googletest/include"
   "/usr/src/googletest/googletest"
   )

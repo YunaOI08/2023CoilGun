@@ -58,20 +58,20 @@ ros_comm_msgs/std_srvs/CMakeFiles/std_srvs_generate_messages_lisp: /home/pi/catk
 ros_comm_msgs/std_srvs/CMakeFiles/std_srvs_generate_messages_lisp: /home/pi/catkin_ws/devel/share/common-lisp/ros/std_srvs/srv/Trigger.lisp
 
 
-/home/pi/catkin_ws/devel/share/common-lisp/ros/std_srvs/srv/Empty.lisp: /home/pi/catkin_ws/install/lib/genlisp/gen_lisp.py
+/home/pi/catkin_ws/devel/share/common-lisp/ros/std_srvs/srv/Empty.lisp: /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py
 /home/pi/catkin_ws/devel/share/common-lisp/ros/std_srvs/srv/Empty.lisp: /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Empty.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from std_srvs/Empty.srv"
-	cd /home/pi/catkin_ws/build/ros_comm_msgs/std_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Empty.srv -p std_srvs -o /home/pi/catkin_ws/devel/share/common-lisp/ros/std_srvs/srv
+	cd /home/pi/catkin_ws/build/ros_comm_msgs/std_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Empty.srv -p std_srvs -o /home/pi/catkin_ws/devel/share/common-lisp/ros/std_srvs/srv
 
-/home/pi/catkin_ws/devel/share/common-lisp/ros/std_srvs/srv/SetBool.lisp: /home/pi/catkin_ws/install/lib/genlisp/gen_lisp.py
+/home/pi/catkin_ws/devel/share/common-lisp/ros/std_srvs/srv/SetBool.lisp: /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py
 /home/pi/catkin_ws/devel/share/common-lisp/ros/std_srvs/srv/SetBool.lisp: /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/SetBool.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from std_srvs/SetBool.srv"
-	cd /home/pi/catkin_ws/build/ros_comm_msgs/std_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/SetBool.srv -p std_srvs -o /home/pi/catkin_ws/devel/share/common-lisp/ros/std_srvs/srv
+	cd /home/pi/catkin_ws/build/ros_comm_msgs/std_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/SetBool.srv -p std_srvs -o /home/pi/catkin_ws/devel/share/common-lisp/ros/std_srvs/srv
 
-/home/pi/catkin_ws/devel/share/common-lisp/ros/std_srvs/srv/Trigger.lisp: /home/pi/catkin_ws/install/lib/genlisp/gen_lisp.py
+/home/pi/catkin_ws/devel/share/common-lisp/ros/std_srvs/srv/Trigger.lisp: /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py
 /home/pi/catkin_ws/devel/share/common-lisp/ros/std_srvs/srv/Trigger.lisp: /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Trigger.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from std_srvs/Trigger.srv"
-	cd /home/pi/catkin_ws/build/ros_comm_msgs/std_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Trigger.srv -p std_srvs -o /home/pi/catkin_ws/devel/share/common-lisp/ros/std_srvs/srv
+	cd /home/pi/catkin_ws/build/ros_comm_msgs/std_srvs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genlisp/scripts/gen_lisp.py /home/pi/catkin_ws/src/ros_comm_msgs/std_srvs/srv/Trigger.srv -p std_srvs -o /home/pi/catkin_ws/devel/share/common-lisp/ros/std_srvs/srv
 
 std_srvs_generate_messages_lisp: ros_comm_msgs/std_srvs/CMakeFiles/std_srvs_generate_messages_lisp
 std_srvs_generate_messages_lisp: /home/pi/catkin_ws/devel/share/common-lisp/ros/std_srvs/srv/Empty.lisp

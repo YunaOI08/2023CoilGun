@@ -2,7 +2,7 @@
 
 message(STATUS "lepton_msg_pkg: 1 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ilepton_msg_pkg:/home/pi/catkin_ws/src/lepton_msg_pkg/msg;-Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ilepton_msg_pkg:/home/pi/catkin_ws/src/lepton_msg_pkg/msg;-Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)

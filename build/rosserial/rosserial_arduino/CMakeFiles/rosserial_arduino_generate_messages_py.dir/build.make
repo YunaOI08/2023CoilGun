@@ -59,27 +59,27 @@ rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_py: /
 rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/srv/__init__.py
 
 
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/msg/_Adc.py: /home/pi/catkin_ws/install/lib/genpy/genmsg_py.py
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/msg/_Adc.py: /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/msg/_Adc.py: /home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg/Adc.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG rosserial_arduino/Adc"
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg/Adc.msg -Irosserial_arduino:/home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg -p rosserial_arduino -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/msg
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py /home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg/Adc.msg -Irosserial_arduino:/home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg -p rosserial_arduino -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/msg
 
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/srv/_Test.py: /home/pi/catkin_ws/install/lib/genpy/gensrv_py.py
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/srv/_Test.py: /home/pi/catkin_ws/src/genpy/scripts/gensrv_py.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/srv/_Test.py: /home/pi/catkin_ws/src/rosserial/rosserial_arduino/srv/Test.srv
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV rosserial_arduino/Test"
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/pi/catkin_ws/src/rosserial/rosserial_arduino/srv/Test.srv -Irosserial_arduino:/home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg -p rosserial_arduino -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/srv
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genpy/scripts/gensrv_py.py /home/pi/catkin_ws/src/rosserial/rosserial_arduino/srv/Test.srv -Irosserial_arduino:/home/pi/catkin_ws/src/rosserial/rosserial_arduino/msg -p rosserial_arduino -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/srv
 
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/msg/__init__.py: /home/pi/catkin_ws/install/lib/genpy/genmsg_py.py
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/msg/__init__.py: /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/msg/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/msg/_Adc.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/msg/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/srv/_Test.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for rosserial_arduino"
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/msg --initpy
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/msg --initpy
 
-/home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/srv/__init__.py: /home/pi/catkin_ws/install/lib/genpy/genmsg_py.py
+/home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/srv/__init__.py: /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/srv/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/msg/_Adc.py
 /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/srv/__init__.py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/srv/_Test.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for rosserial_arduino"
-	cd /home/pi/catkin_ws/build/rosserial/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/srv --initpy
+	cd /home/pi/catkin_ws/build/rosserial/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genpy/scripts/genmsg_py.py -o /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/srv --initpy
 
 rosserial_arduino_generate_messages_py: rosserial/rosserial_arduino/CMakeFiles/rosserial_arduino_generate_messages_py
 rosserial_arduino_generate_messages_py: /home/pi/catkin_ws/devel/lib/python3/dist-packages/rosserial_arduino/msg/_Adc.py

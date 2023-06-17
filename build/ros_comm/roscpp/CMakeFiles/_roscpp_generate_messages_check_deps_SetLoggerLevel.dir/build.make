@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/catkin_ws/build
 include ros_comm/roscpp/CMakeFiles/_roscpp_generate_messages_check_deps_SetLoggerLevel.dir/progress.make
 
 ros_comm/roscpp/CMakeFiles/_roscpp_generate_messages_check_deps_SetLoggerLevel:
-	cd /home/pi/catkin_ws/build/ros_comm/roscpp && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py roscpp /home/pi/catkin_ws/src/ros_comm/roscpp/srv/SetLoggerLevel.srv 
+	cd /home/pi/catkin_ws/build/ros_comm/roscpp && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py roscpp /home/pi/catkin_ws/src/ros_comm/roscpp/srv/SetLoggerLevel.srv 
 
 _roscpp_generate_messages_check_deps_SetLoggerLevel: ros_comm/roscpp/CMakeFiles/_roscpp_generate_messages_check_deps_SetLoggerLevel
 _roscpp_generate_messages_check_deps_SetLoggerLevel: ros_comm/roscpp/CMakeFiles/_roscpp_generate_messages_check_deps_SetLoggerLevel.dir/build.make

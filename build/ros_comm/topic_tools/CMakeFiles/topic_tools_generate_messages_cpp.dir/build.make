@@ -63,61 +63,61 @@ ros_comm/topic_tools/CMakeFiles/topic_tools_generate_messages_cpp: /home/pi/catk
 ros_comm/topic_tools/CMakeFiles/topic_tools_generate_messages_cpp: /home/pi/catkin_ws/devel/include/topic_tools/DemuxSelect.h
 
 
-/home/pi/catkin_ws/devel/include/topic_tools/MuxAdd.h: /home/pi/catkin_ws/install/lib/gencpp/gen_cpp.py
+/home/pi/catkin_ws/devel/include/topic_tools/MuxAdd.h: /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py
 /home/pi/catkin_ws/devel/include/topic_tools/MuxAdd.h: /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/MuxAdd.srv
-/home/pi/catkin_ws/devel/include/topic_tools/MuxAdd.h: /home/pi/catkin_ws/install/share/gencpp/msg.h.template
-/home/pi/catkin_ws/devel/include/topic_tools/MuxAdd.h: /home/pi/catkin_ws/install/share/gencpp/srv.h.template
+/home/pi/catkin_ws/devel/include/topic_tools/MuxAdd.h: /home/pi/catkin_ws/src/gencpp/scripts/msg.h.template
+/home/pi/catkin_ws/devel/include/topic_tools/MuxAdd.h: /home/pi/catkin_ws/src/gencpp/scripts/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from topic_tools/MuxAdd.srv"
-	cd /home/pi/catkin_ws/src/ros_comm/topic_tools && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/MuxAdd.srv -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p topic_tools -o /home/pi/catkin_ws/devel/include/topic_tools -e /home/pi/catkin_ws/install/share/gencpp/cmake/..
+	cd /home/pi/catkin_ws/src/ros_comm/topic_tools && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/MuxAdd.srv -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p topic_tools -o /home/pi/catkin_ws/devel/include/topic_tools -e /home/pi/catkin_ws/src/gencpp/scripts
 
-/home/pi/catkin_ws/devel/include/topic_tools/MuxDelete.h: /home/pi/catkin_ws/install/lib/gencpp/gen_cpp.py
+/home/pi/catkin_ws/devel/include/topic_tools/MuxDelete.h: /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py
 /home/pi/catkin_ws/devel/include/topic_tools/MuxDelete.h: /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/MuxDelete.srv
-/home/pi/catkin_ws/devel/include/topic_tools/MuxDelete.h: /home/pi/catkin_ws/install/share/gencpp/msg.h.template
-/home/pi/catkin_ws/devel/include/topic_tools/MuxDelete.h: /home/pi/catkin_ws/install/share/gencpp/srv.h.template
+/home/pi/catkin_ws/devel/include/topic_tools/MuxDelete.h: /home/pi/catkin_ws/src/gencpp/scripts/msg.h.template
+/home/pi/catkin_ws/devel/include/topic_tools/MuxDelete.h: /home/pi/catkin_ws/src/gencpp/scripts/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from topic_tools/MuxDelete.srv"
-	cd /home/pi/catkin_ws/src/ros_comm/topic_tools && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/MuxDelete.srv -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p topic_tools -o /home/pi/catkin_ws/devel/include/topic_tools -e /home/pi/catkin_ws/install/share/gencpp/cmake/..
+	cd /home/pi/catkin_ws/src/ros_comm/topic_tools && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/MuxDelete.srv -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p topic_tools -o /home/pi/catkin_ws/devel/include/topic_tools -e /home/pi/catkin_ws/src/gencpp/scripts
 
-/home/pi/catkin_ws/devel/include/topic_tools/MuxList.h: /home/pi/catkin_ws/install/lib/gencpp/gen_cpp.py
+/home/pi/catkin_ws/devel/include/topic_tools/MuxList.h: /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py
 /home/pi/catkin_ws/devel/include/topic_tools/MuxList.h: /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/MuxList.srv
-/home/pi/catkin_ws/devel/include/topic_tools/MuxList.h: /home/pi/catkin_ws/install/share/gencpp/msg.h.template
-/home/pi/catkin_ws/devel/include/topic_tools/MuxList.h: /home/pi/catkin_ws/install/share/gencpp/srv.h.template
+/home/pi/catkin_ws/devel/include/topic_tools/MuxList.h: /home/pi/catkin_ws/src/gencpp/scripts/msg.h.template
+/home/pi/catkin_ws/devel/include/topic_tools/MuxList.h: /home/pi/catkin_ws/src/gencpp/scripts/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from topic_tools/MuxList.srv"
-	cd /home/pi/catkin_ws/src/ros_comm/topic_tools && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/MuxList.srv -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p topic_tools -o /home/pi/catkin_ws/devel/include/topic_tools -e /home/pi/catkin_ws/install/share/gencpp/cmake/..
+	cd /home/pi/catkin_ws/src/ros_comm/topic_tools && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/MuxList.srv -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p topic_tools -o /home/pi/catkin_ws/devel/include/topic_tools -e /home/pi/catkin_ws/src/gencpp/scripts
 
-/home/pi/catkin_ws/devel/include/topic_tools/MuxSelect.h: /home/pi/catkin_ws/install/lib/gencpp/gen_cpp.py
+/home/pi/catkin_ws/devel/include/topic_tools/MuxSelect.h: /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py
 /home/pi/catkin_ws/devel/include/topic_tools/MuxSelect.h: /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/MuxSelect.srv
-/home/pi/catkin_ws/devel/include/topic_tools/MuxSelect.h: /home/pi/catkin_ws/install/share/gencpp/msg.h.template
-/home/pi/catkin_ws/devel/include/topic_tools/MuxSelect.h: /home/pi/catkin_ws/install/share/gencpp/srv.h.template
+/home/pi/catkin_ws/devel/include/topic_tools/MuxSelect.h: /home/pi/catkin_ws/src/gencpp/scripts/msg.h.template
+/home/pi/catkin_ws/devel/include/topic_tools/MuxSelect.h: /home/pi/catkin_ws/src/gencpp/scripts/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from topic_tools/MuxSelect.srv"
-	cd /home/pi/catkin_ws/src/ros_comm/topic_tools && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/MuxSelect.srv -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p topic_tools -o /home/pi/catkin_ws/devel/include/topic_tools -e /home/pi/catkin_ws/install/share/gencpp/cmake/..
+	cd /home/pi/catkin_ws/src/ros_comm/topic_tools && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/MuxSelect.srv -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p topic_tools -o /home/pi/catkin_ws/devel/include/topic_tools -e /home/pi/catkin_ws/src/gencpp/scripts
 
-/home/pi/catkin_ws/devel/include/topic_tools/DemuxAdd.h: /home/pi/catkin_ws/install/lib/gencpp/gen_cpp.py
+/home/pi/catkin_ws/devel/include/topic_tools/DemuxAdd.h: /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py
 /home/pi/catkin_ws/devel/include/topic_tools/DemuxAdd.h: /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/DemuxAdd.srv
-/home/pi/catkin_ws/devel/include/topic_tools/DemuxAdd.h: /home/pi/catkin_ws/install/share/gencpp/msg.h.template
-/home/pi/catkin_ws/devel/include/topic_tools/DemuxAdd.h: /home/pi/catkin_ws/install/share/gencpp/srv.h.template
+/home/pi/catkin_ws/devel/include/topic_tools/DemuxAdd.h: /home/pi/catkin_ws/src/gencpp/scripts/msg.h.template
+/home/pi/catkin_ws/devel/include/topic_tools/DemuxAdd.h: /home/pi/catkin_ws/src/gencpp/scripts/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from topic_tools/DemuxAdd.srv"
-	cd /home/pi/catkin_ws/src/ros_comm/topic_tools && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/DemuxAdd.srv -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p topic_tools -o /home/pi/catkin_ws/devel/include/topic_tools -e /home/pi/catkin_ws/install/share/gencpp/cmake/..
+	cd /home/pi/catkin_ws/src/ros_comm/topic_tools && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/DemuxAdd.srv -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p topic_tools -o /home/pi/catkin_ws/devel/include/topic_tools -e /home/pi/catkin_ws/src/gencpp/scripts
 
-/home/pi/catkin_ws/devel/include/topic_tools/DemuxDelete.h: /home/pi/catkin_ws/install/lib/gencpp/gen_cpp.py
+/home/pi/catkin_ws/devel/include/topic_tools/DemuxDelete.h: /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py
 /home/pi/catkin_ws/devel/include/topic_tools/DemuxDelete.h: /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/DemuxDelete.srv
-/home/pi/catkin_ws/devel/include/topic_tools/DemuxDelete.h: /home/pi/catkin_ws/install/share/gencpp/msg.h.template
-/home/pi/catkin_ws/devel/include/topic_tools/DemuxDelete.h: /home/pi/catkin_ws/install/share/gencpp/srv.h.template
+/home/pi/catkin_ws/devel/include/topic_tools/DemuxDelete.h: /home/pi/catkin_ws/src/gencpp/scripts/msg.h.template
+/home/pi/catkin_ws/devel/include/topic_tools/DemuxDelete.h: /home/pi/catkin_ws/src/gencpp/scripts/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from topic_tools/DemuxDelete.srv"
-	cd /home/pi/catkin_ws/src/ros_comm/topic_tools && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/DemuxDelete.srv -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p topic_tools -o /home/pi/catkin_ws/devel/include/topic_tools -e /home/pi/catkin_ws/install/share/gencpp/cmake/..
+	cd /home/pi/catkin_ws/src/ros_comm/topic_tools && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/DemuxDelete.srv -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p topic_tools -o /home/pi/catkin_ws/devel/include/topic_tools -e /home/pi/catkin_ws/src/gencpp/scripts
 
-/home/pi/catkin_ws/devel/include/topic_tools/DemuxList.h: /home/pi/catkin_ws/install/lib/gencpp/gen_cpp.py
+/home/pi/catkin_ws/devel/include/topic_tools/DemuxList.h: /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py
 /home/pi/catkin_ws/devel/include/topic_tools/DemuxList.h: /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/DemuxList.srv
-/home/pi/catkin_ws/devel/include/topic_tools/DemuxList.h: /home/pi/catkin_ws/install/share/gencpp/msg.h.template
-/home/pi/catkin_ws/devel/include/topic_tools/DemuxList.h: /home/pi/catkin_ws/install/share/gencpp/srv.h.template
+/home/pi/catkin_ws/devel/include/topic_tools/DemuxList.h: /home/pi/catkin_ws/src/gencpp/scripts/msg.h.template
+/home/pi/catkin_ws/devel/include/topic_tools/DemuxList.h: /home/pi/catkin_ws/src/gencpp/scripts/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from topic_tools/DemuxList.srv"
-	cd /home/pi/catkin_ws/src/ros_comm/topic_tools && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/DemuxList.srv -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p topic_tools -o /home/pi/catkin_ws/devel/include/topic_tools -e /home/pi/catkin_ws/install/share/gencpp/cmake/..
+	cd /home/pi/catkin_ws/src/ros_comm/topic_tools && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/DemuxList.srv -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p topic_tools -o /home/pi/catkin_ws/devel/include/topic_tools -e /home/pi/catkin_ws/src/gencpp/scripts
 
-/home/pi/catkin_ws/devel/include/topic_tools/DemuxSelect.h: /home/pi/catkin_ws/install/lib/gencpp/gen_cpp.py
+/home/pi/catkin_ws/devel/include/topic_tools/DemuxSelect.h: /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py
 /home/pi/catkin_ws/devel/include/topic_tools/DemuxSelect.h: /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/DemuxSelect.srv
-/home/pi/catkin_ws/devel/include/topic_tools/DemuxSelect.h: /home/pi/catkin_ws/install/share/gencpp/msg.h.template
-/home/pi/catkin_ws/devel/include/topic_tools/DemuxSelect.h: /home/pi/catkin_ws/install/share/gencpp/srv.h.template
+/home/pi/catkin_ws/devel/include/topic_tools/DemuxSelect.h: /home/pi/catkin_ws/src/gencpp/scripts/msg.h.template
+/home/pi/catkin_ws/devel/include/topic_tools/DemuxSelect.h: /home/pi/catkin_ws/src/gencpp/scripts/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from topic_tools/DemuxSelect.srv"
-	cd /home/pi/catkin_ws/src/ros_comm/topic_tools && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/install/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/DemuxSelect.srv -Istd_msgs:/home/pi/catkin_ws/install/share/std_msgs/cmake/../msg -p topic_tools -o /home/pi/catkin_ws/devel/include/topic_tools -e /home/pi/catkin_ws/install/share/gencpp/cmake/..
+	cd /home/pi/catkin_ws/src/ros_comm/topic_tools && /home/pi/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/gencpp/scripts/gen_cpp.py /home/pi/catkin_ws/src/ros_comm/topic_tools/srv/DemuxSelect.srv -Istd_msgs:/home/pi/catkin_ws/src/std_msgs/msg -p topic_tools -o /home/pi/catkin_ws/devel/include/topic_tools -e /home/pi/catkin_ws/src/gencpp/scripts
 
 topic_tools_generate_messages_cpp: ros_comm/topic_tools/CMakeFiles/topic_tools_generate_messages_cpp
 topic_tools_generate_messages_cpp: /home/pi/catkin_ws/devel/include/topic_tools/MuxAdd.h
