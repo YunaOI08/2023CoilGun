@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/catkin_ws/build
 include common_msgs/geometry_msgs/CMakeFiles/_geometry_msgs_generate_messages_check_deps_PointStamped.dir/progress.make
 
 common_msgs/geometry_msgs/CMakeFiles/_geometry_msgs_generate_messages_check_deps_PointStamped:
-	cd /home/pi/catkin_ws/build/common_msgs/geometry_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py geometry_msgs /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/PointStamped.msg geometry_msgs/Point:std_msgs/Header
+	cd /home/pi/catkin_ws/build/common_msgs/geometry_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py geometry_msgs /home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/PointStamped.msg std_msgs/Header:geometry_msgs/Point
 
 _geometry_msgs_generate_messages_check_deps_PointStamped: common_msgs/geometry_msgs/CMakeFiles/_geometry_msgs_generate_messages_check_deps_PointStamped
 _geometry_msgs_generate_messages_check_deps_PointStamped: common_msgs/geometry_msgs/CMakeFiles/_geometry_msgs_generate_messages_check_deps_PointStamped.dir/build.make

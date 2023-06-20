@@ -19,7 +19,7 @@ add_custom_target(diagnostic_msgs_generate_messages ALL)
 
 get_filename_component(_filename "/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticArray.msg" NAME_WE)
 add_custom_target(_diagnostic_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "diagnostic_msgs" "/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticArray.msg" "std_msgs/Header:diagnostic_msgs/DiagnosticStatus:diagnostic_msgs/KeyValue"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "diagnostic_msgs" "/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticArray.msg" "std_msgs/Header:diagnostic_msgs/KeyValue:diagnostic_msgs/DiagnosticStatus"
 )
 
 get_filename_component(_filename "/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg" NAME_WE)
@@ -51,7 +51,7 @@ add_custom_target(_diagnostic_msgs_generate_messages_check_deps_${_filename}
 _generate_msg_cpp(diagnostic_msgs
   "/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg;/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg"
+  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg;/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/diagnostic_msgs
 )
 _generate_msg_cpp(diagnostic_msgs
@@ -116,7 +116,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS diagnostic_msgs_generate_messages_c
 _generate_msg_eus(diagnostic_msgs
   "/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg;/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg"
+  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg;/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/diagnostic_msgs
 )
 _generate_msg_eus(diagnostic_msgs
@@ -181,7 +181,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS diagnostic_msgs_generate_messages_e
 _generate_msg_lisp(diagnostic_msgs
   "/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg;/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg"
+  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg;/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/diagnostic_msgs
 )
 _generate_msg_lisp(diagnostic_msgs
@@ -246,7 +246,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS diagnostic_msgs_generate_messages_l
 _generate_msg_nodejs(diagnostic_msgs
   "/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg;/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg"
+  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg;/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/diagnostic_msgs
 )
 _generate_msg_nodejs(diagnostic_msgs
@@ -311,7 +311,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS diagnostic_msgs_generate_messages_n
 _generate_msg_py(diagnostic_msgs
   "/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg;/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg"
+  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg;/home/pi/catkin_ws/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/diagnostic_msgs
 )
 _generate_msg_py(diagnostic_msgs

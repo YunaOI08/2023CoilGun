@@ -13,7 +13,7 @@ class Mux():
 	def __init__(self):
 		self.pub1 = rospy.Publisher('/servo1', UInt16, queue_size=10)
 		self.pub2 = rospy.Publisher('/servo2', UInt16, queue_size=10)
-		self.rate = rospy.Rate(10)		
+		self.rate = rospy.Rate(10)
 		self.angle1 = 0
 		self.angle1 = 0
 
@@ -27,7 +27,7 @@ class Mux():
 			cv2.imshow('img', self.img)
 
 	def run(self):ros
-		rospy.init_noe('mux', anonymous=True)
+		rospy.init_node('mux', anonymous=True)
 		self.sub = rospy.Subscriber('/flir_lepton/thermal_image', Image, self.callback)
 		
 		while not rospy.is_shutdown():

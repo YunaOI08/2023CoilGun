@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/catkin_ws/build
 include common_msgs/stereo_msgs/CMakeFiles/_stereo_msgs_generate_messages_check_deps_DisparityImage.dir/progress.make
 
 common_msgs/stereo_msgs/CMakeFiles/_stereo_msgs_generate_messages_check_deps_DisparityImage:
-	cd /home/pi/catkin_ws/build/common_msgs/stereo_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py stereo_msgs /home/pi/catkin_ws/src/common_msgs/stereo_msgs/msg/DisparityImage.msg sensor_msgs/RegionOfInterest:std_msgs/Header:sensor_msgs/Image
+	cd /home/pi/catkin_ws/build/common_msgs/stereo_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py stereo_msgs /home/pi/catkin_ws/src/common_msgs/stereo_msgs/msg/DisparityImage.msg sensor_msgs/Image:std_msgs/Header:sensor_msgs/RegionOfInterest
 
 _stereo_msgs_generate_messages_check_deps_DisparityImage: common_msgs/stereo_msgs/CMakeFiles/_stereo_msgs_generate_messages_check_deps_DisparityImage
 _stereo_msgs_generate_messages_check_deps_DisparityImage: common_msgs/stereo_msgs/CMakeFiles/_stereo_msgs_generate_messages_check_deps_DisparityImage.dir/build.make

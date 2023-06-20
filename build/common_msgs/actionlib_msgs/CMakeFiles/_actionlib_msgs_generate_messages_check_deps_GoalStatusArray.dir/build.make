@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/catkin_ws/build
 include common_msgs/actionlib_msgs/CMakeFiles/_actionlib_msgs_generate_messages_check_deps_GoalStatusArray.dir/progress.make
 
 common_msgs/actionlib_msgs/CMakeFiles/_actionlib_msgs_generate_messages_check_deps_GoalStatusArray:
-	cd /home/pi/catkin_ws/build/common_msgs/actionlib_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py actionlib_msgs /home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg/GoalStatusArray.msg actionlib_msgs/GoalStatus:std_msgs/Header:actionlib_msgs/GoalID
+	cd /home/pi/catkin_ws/build/common_msgs/actionlib_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py actionlib_msgs /home/pi/catkin_ws/src/common_msgs/actionlib_msgs/msg/GoalStatusArray.msg actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header
 
 _actionlib_msgs_generate_messages_check_deps_GoalStatusArray: common_msgs/actionlib_msgs/CMakeFiles/_actionlib_msgs_generate_messages_check_deps_GoalStatusArray
 _actionlib_msgs_generate_messages_check_deps_GoalStatusArray: common_msgs/actionlib_msgs/CMakeFiles/_actionlib_msgs_generate_messages_check_deps_GoalStatusArray.dir/build.make

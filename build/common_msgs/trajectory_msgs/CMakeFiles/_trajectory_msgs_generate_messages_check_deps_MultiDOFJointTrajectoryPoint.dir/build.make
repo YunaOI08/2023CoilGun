@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/catkin_ws/build
 include common_msgs/trajectory_msgs/CMakeFiles/_trajectory_msgs_generate_messages_check_deps_MultiDOFJointTrajectoryPoint.dir/progress.make
 
 common_msgs/trajectory_msgs/CMakeFiles/_trajectory_msgs_generate_messages_check_deps_MultiDOFJointTrajectoryPoint:
-	cd /home/pi/catkin_ws/build/common_msgs/trajectory_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py trajectory_msgs /home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg geometry_msgs/Twist:geometry_msgs/Quaternion:geometry_msgs/Transform:geometry_msgs/Vector3
+	cd /home/pi/catkin_ws/build/common_msgs/trajectory_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py trajectory_msgs /home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg geometry_msgs/Quaternion:geometry_msgs/Twist:geometry_msgs/Vector3:geometry_msgs/Transform
 
 _trajectory_msgs_generate_messages_check_deps_MultiDOFJointTrajectoryPoint: common_msgs/trajectory_msgs/CMakeFiles/_trajectory_msgs_generate_messages_check_deps_MultiDOFJointTrajectoryPoint
 _trajectory_msgs_generate_messages_check_deps_MultiDOFJointTrajectoryPoint: common_msgs/trajectory_msgs/CMakeFiles/_trajectory_msgs_generate_messages_check_deps_MultiDOFJointTrajectoryPoint.dir/build.make

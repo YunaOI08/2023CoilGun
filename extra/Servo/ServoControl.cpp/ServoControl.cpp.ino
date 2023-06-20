@@ -37,6 +37,17 @@ ros::NodeHandle  nh;
 Servo servo1;
 Servo servo2;
 
+int currentsens, lastsens = 0;
+
+boolean buttoninput(boolean last, int i) {
+  boolean current =digitalRead(i);
+  if (current != last) {
+    delay(15);
+    current = digitalRead(i);
+  }
+  return(current);
+}
+
 void servo_cb1( const std_msgs::UInt16& cmd_msg){
   servo1.write(cmd_msg.data); //set servo angle, should be from 0-180  
   //digitalWrite(13, HIGH-digitalRead(13));  //toggle led  
@@ -48,20 +59,31 @@ void servo_cb2( const std_msgs::UInt16& cmd_msg){
 }
 
 
-ros::Subscriber<std_msgs::UInt16> sub("servo1", servo_cb1);
-ros::Subscriber<std_msgs::UInt16> sub("servo2", servo_cb2);
+ros::Subscriber<std_msgs::UInt16> sub1("servo1", servo_cb1);
+ros::Subscriber<std_msgs::UInt16> sub2("servo2", servo_cb2);
 
 void setup(){
-  pinMode(13, OUTPUT);
+//  pinMode(13, OUTPUT);
+//  pinMode(14, OUTPUT);
+  pinMode(4, OUTPUT);
+  pinMode(2, INPUT);
 
   nh.initNode();
-  nh.subscribe(sub);
+  nh.subscribe(sub1);
+  nh.subscribe(sub2);
   
-  servo1.attach(9); //attach it to pin 9
-  servo1.attach(10); //attach it to pin 10
+  servo1.attach(9); //under
+  servo2.attach(8); //top
 }
 
 void loop(){
+  currentsens = buttoninput(lastsens, 2);
+  if (lastsens == 0 && currentsens == 1) {
+    digitalWrite(4, HIGH);
+    delay(12);
+    digitalWrite(4, LOW);
+  }
+  lastsens = currentsens;
   nh.spinOnce();
-  delay(1);
+//  delay(1);
 }

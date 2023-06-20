@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/catkin_ws/build
 include common_msgs/sensor_msgs/CMakeFiles/_sensor_msgs_generate_messages_check_deps_MultiDOFJointState.dir/progress.make
 
 common_msgs/sensor_msgs/CMakeFiles/_sensor_msgs_generate_messages_check_deps_MultiDOFJointState:
-	cd /home/pi/catkin_ws/build/common_msgs/sensor_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py sensor_msgs /home/pi/catkin_ws/src/common_msgs/sensor_msgs/msg/MultiDOFJointState.msg std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Wrench:geometry_msgs/Twist:geometry_msgs/Transform:geometry_msgs/Vector3
+	cd /home/pi/catkin_ws/build/common_msgs/sensor_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py sensor_msgs /home/pi/catkin_ws/src/common_msgs/sensor_msgs/msg/MultiDOFJointState.msg geometry_msgs/Transform:geometry_msgs/Twist:std_msgs/Header:geometry_msgs/Vector3:geometry_msgs/Wrench:geometry_msgs/Quaternion
 
 _sensor_msgs_generate_messages_check_deps_MultiDOFJointState: common_msgs/sensor_msgs/CMakeFiles/_sensor_msgs_generate_messages_check_deps_MultiDOFJointState
 _sensor_msgs_generate_messages_check_deps_MultiDOFJointState: common_msgs/sensor_msgs/CMakeFiles/_sensor_msgs_generate_messages_check_deps_MultiDOFJointState.dir/build.make
