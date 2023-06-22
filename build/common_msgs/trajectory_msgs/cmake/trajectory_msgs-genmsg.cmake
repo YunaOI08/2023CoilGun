@@ -19,7 +19,7 @@ add_custom_target(trajectory_msgs_generate_messages ALL)
 
 get_filename_component(_filename "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectory.msg" NAME_WE)
 add_custom_target(_trajectory_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "trajectory_msgs" "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectory.msg" "trajectory_msgs/JointTrajectoryPoint:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "trajectory_msgs" "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectory.msg" "std_msgs/Header:trajectory_msgs/JointTrajectoryPoint"
 )
 
 get_filename_component(_filename "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectoryPoint.msg" NAME_WE)
@@ -29,7 +29,7 @@ add_custom_target(_trajectory_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectory.msg" NAME_WE)
 add_custom_target(_trajectory_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "trajectory_msgs" "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectory.msg" "std_msgs/Header:geometry_msgs/Quaternion:trajectory_msgs/MultiDOFJointTrajectoryPoint:geometry_msgs/Twist:geometry_msgs/Vector3:geometry_msgs/Transform"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "trajectory_msgs" "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectory.msg" "trajectory_msgs/MultiDOFJointTrajectoryPoint:geometry_msgs/Transform:std_msgs/Header:geometry_msgs/Twist:geometry_msgs/Vector3:geometry_msgs/Quaternion"
 )
 
 get_filename_component(_filename "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg" NAME_WE)
@@ -46,7 +46,7 @@ add_custom_target(_trajectory_msgs_generate_messages_check_deps_${_filename}
 _generate_msg_cpp(trajectory_msgs
   "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectory.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectoryPoint.msg;/home/pi/catkin_ws/src/std_msgs/msg/Header.msg"
+  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectoryPoint.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/trajectory_msgs
 )
 _generate_msg_cpp(trajectory_msgs
@@ -58,7 +58,7 @@ _generate_msg_cpp(trajectory_msgs
 _generate_msg_cpp(trajectory_msgs
   "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectory.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg;/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Vector3.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Transform.msg"
+  "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Vector3.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/trajectory_msgs
 )
 _generate_msg_cpp(trajectory_msgs
@@ -103,7 +103,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS trajectory_msgs_generate_messages_c
 _generate_msg_eus(trajectory_msgs
   "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectory.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectoryPoint.msg;/home/pi/catkin_ws/src/std_msgs/msg/Header.msg"
+  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectoryPoint.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/trajectory_msgs
 )
 _generate_msg_eus(trajectory_msgs
@@ -115,7 +115,7 @@ _generate_msg_eus(trajectory_msgs
 _generate_msg_eus(trajectory_msgs
   "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectory.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg;/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Vector3.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Transform.msg"
+  "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Vector3.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/trajectory_msgs
 )
 _generate_msg_eus(trajectory_msgs
@@ -160,7 +160,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS trajectory_msgs_generate_messages_e
 _generate_msg_lisp(trajectory_msgs
   "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectory.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectoryPoint.msg;/home/pi/catkin_ws/src/std_msgs/msg/Header.msg"
+  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectoryPoint.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/trajectory_msgs
 )
 _generate_msg_lisp(trajectory_msgs
@@ -172,7 +172,7 @@ _generate_msg_lisp(trajectory_msgs
 _generate_msg_lisp(trajectory_msgs
   "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectory.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg;/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Vector3.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Transform.msg"
+  "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Vector3.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/trajectory_msgs
 )
 _generate_msg_lisp(trajectory_msgs
@@ -217,7 +217,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS trajectory_msgs_generate_messages_l
 _generate_msg_nodejs(trajectory_msgs
   "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectory.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectoryPoint.msg;/home/pi/catkin_ws/src/std_msgs/msg/Header.msg"
+  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectoryPoint.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/trajectory_msgs
 )
 _generate_msg_nodejs(trajectory_msgs
@@ -229,7 +229,7 @@ _generate_msg_nodejs(trajectory_msgs
 _generate_msg_nodejs(trajectory_msgs
   "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectory.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg;/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Vector3.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Transform.msg"
+  "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Vector3.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/trajectory_msgs
 )
 _generate_msg_nodejs(trajectory_msgs
@@ -274,7 +274,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS trajectory_msgs_generate_messages_n
 _generate_msg_py(trajectory_msgs
   "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectory.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectoryPoint.msg;/home/pi/catkin_ws/src/std_msgs/msg/Header.msg"
+  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/JointTrajectoryPoint.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/trajectory_msgs
 )
 _generate_msg_py(trajectory_msgs
@@ -286,7 +286,7 @@ _generate_msg_py(trajectory_msgs
 _generate_msg_py(trajectory_msgs
   "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectory.msg"
   "${MSG_I_FLAGS}"
-  "/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg;/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Vector3.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Transform.msg"
+  "/home/pi/catkin_ws/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/pi/catkin_ws/src/std_msgs/msg/Header.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Vector3.msg;/home/pi/catkin_ws/src/common_msgs/geometry_msgs/msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/trajectory_msgs
 )
 _generate_msg_py(trajectory_msgs

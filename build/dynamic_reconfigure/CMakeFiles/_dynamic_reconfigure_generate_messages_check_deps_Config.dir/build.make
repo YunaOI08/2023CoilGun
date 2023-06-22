@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/catkin_ws/build
 include dynamic_reconfigure/CMakeFiles/_dynamic_reconfigure_generate_messages_check_deps_Config.dir/progress.make
 
 dynamic_reconfigure/CMakeFiles/_dynamic_reconfigure_generate_messages_check_deps_Config:
-	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py dynamic_reconfigure /home/pi/catkin_ws/src/dynamic_reconfigure/msg/Config.msg dynamic_reconfigure/DoubleParameter:dynamic_reconfigure/StrParameter:dynamic_reconfigure/GroupState:dynamic_reconfigure/IntParameter:dynamic_reconfigure/BoolParameter
+	cd /home/pi/catkin_ws/build/dynamic_reconfigure && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/pi/catkin_ws/src/genmsg/scripts/genmsg_check_deps.py dynamic_reconfigure /home/pi/catkin_ws/src/dynamic_reconfigure/msg/Config.msg dynamic_reconfigure/BoolParameter:dynamic_reconfigure/IntParameter:dynamic_reconfigure/GroupState:dynamic_reconfigure/StrParameter:dynamic_reconfigure/DoubleParameter
 
 _dynamic_reconfigure_generate_messages_check_deps_Config: dynamic_reconfigure/CMakeFiles/_dynamic_reconfigure_generate_messages_check_deps_Config
 _dynamic_reconfigure_generate_messages_check_deps_Config: dynamic_reconfigure/CMakeFiles/_dynamic_reconfigure_generate_messages_check_deps_Config.dir/build.make

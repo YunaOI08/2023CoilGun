@@ -72,8 +72,11 @@ void setup(){
   nh.subscribe(sub1);
   nh.subscribe(sub2);
   
-  servo1.attach(9); //under
+  servo1.attach(10); //under
   servo2.attach(8); //top
+
+//  servo1.write(90);
+//  servo2.write(100);
 }
 
 void loop(){
