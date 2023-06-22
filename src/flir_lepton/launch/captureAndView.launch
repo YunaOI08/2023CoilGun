@@ -1,0 +1,5 @@
+<launch>
+  <remap from="image" to="flir_lepton/thermal_image"/>
+  <node pkg="image_view" type="image_view" name="image_view"/>
+  <include file="$(find flir_lepton)/launch/default.launch" />
+</launch>
