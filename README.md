@@ -32,18 +32,6 @@ wstool merge -t src noetic-common_msgs-wet.rosinstall
 wstool update -t src
 ```
 
-
-## Lepton3 사용을 위한 환경설정 및 qt4 설치
-1. First enable the SPI and I2C interfaces on the Pi.
-```bash
-sudo raspi-config
-```
-
-2. Install the 'qt4-dev-tools' package, which allows compiling of QT applications.
-```bash
-sudo apt-get install qt4-dev-tools
-```
-
 ## 실행 방법
 ```bash
 cd ~/2023CoilGun && catkin_make
