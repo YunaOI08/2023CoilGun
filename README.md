@@ -3,9 +3,7 @@
 
 ![ezgif-5-f3ae6afd67](https://github.com/YunaOI08/2023CoilGun/assets/87895999/beca67d4-f2e9-4820-b110-9f0e60e2035d)
 
-![coilgun_shoot](https://github.com/YunaOI08/2023CoilGun/assets/87895999/c014544e-1692-41b8-be62-0ec10ce4f440)
-
-
+![coilgun_shoot](https://github.com/YunaOI08/2023CoilGun/assets/87895999/9a7e573f-fd13-4b9e-86a2-7f870c0b033a)
 
 
 version
