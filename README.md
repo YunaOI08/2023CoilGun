@@ -76,7 +76,7 @@ sudo apt-get install qt4-dev-tools
 ```bash
 cd ~/2023CoilGun && catkin_make
 ```
-serial connection with arduino
+Serial connection with arduino
 ```bash
 # upload arduino: use ServoControl.cpp.ino
 roscore
@@ -90,7 +90,7 @@ SPI connection for publish msg of lepton
 ```bash
 roslaunch flir_lepton captureAndView.launch
 ```
-subscribe all msg and publish msg for survo control
+Subscribe all msg and publish msg for survo control
 ```
 rosrun mux mux.py
 ```
