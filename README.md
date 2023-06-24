@@ -74,8 +74,18 @@ sudo apt-get install qt4-dev-tools
 ## 실행 방법
 ```bash
 cd ~/2023CoilGun && catkin_make
-rosrun Lepton3 lepton_pub
-
+# upload arduino: use ServoControl.cpp.ino
+# serial connection with arduino
+roscore
+rosrun rosserial_python serial_node.py _port:=/dev/ttyACM0 _baud:=57600
+# example to publish servo msgs
+rostopic pub /servo1 std_msgs/UInt16 90 --once
+rostopic pub /servo2 std_msgs/UInt16 90 --once
+# lepton publish
+roslaunch flir_lepton captureAndView.launch
+# subscribe lepton and publish survo
+rosrun mux mux.py
+```
 
 ## Reference
 [1] [How to Install ROS Noetic on Raspberry Pi 4 - VarHowto](https://varhowto.com/install-ros-noetic-raspberry-pi-4/)
