@@ -1,7 +1,7 @@
 # 2023CoilGun
 4학년 1학기 종합설계및운용 강의를 위한 ros 패키지 입니다.
 
-![ezgif-5-f3ae6afd67](https://github.com/YunaOI08/2023CoilGun/assets/87895999/beca67d4-f2e9-4820-b110-9f0e60e2035d)
+![coilgun_detectFire](https://github.com/YunaOI08/2023CoilGun/assets/87895999/4bf5839d-26ff-44c5-8d87-48a0e1df1fe7)
 
 ![coilgun_shoot](https://github.com/YunaOI08/2023CoilGun/assets/87895999/9a7e573f-fd13-4b9e-86a2-7f870c0b033a)
 
