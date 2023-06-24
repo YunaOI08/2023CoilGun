@@ -1,5 +1,7 @@
 # 2023CoilGun
 4학년 1학기 종합설계및운용 강의를 위한 ros 패키지 입니다.
+![image](https://github.com/YunaOI08/2023CoilGun/assets/87895999/ea149ade-7441-40d2-a2db-0b2c3f2dceed)
+
 
 version
 > os: debian buster
