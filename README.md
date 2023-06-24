@@ -3,12 +3,13 @@
 
 version
 > os: debian buster
-
+> 
 > ros: noetic
-
+> 
 > python: 3.7
-
-> opencv: 
+> 
+> opencv: 4.7.0
+>
 
 ## Debian buster 환경에 ros noetic 설치
 
