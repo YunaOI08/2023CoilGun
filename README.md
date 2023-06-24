@@ -1,9 +1,13 @@
 # 2023CoilGun
 4학년 1학기 종합설계및운용 강의를 위한 ros 패키지 입니다.
+
 version
 > os: debian buster
+
 > ros: noetic
+
 > python: 3.7
+
 > opencv: 
 
 ## Debian buster 환경에 ros noetic 설치
