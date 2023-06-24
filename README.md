@@ -1,9 +1,10 @@
 # 2023CoilGun
 4학년 1학기 종합설계및운용 강의를 위한 ros 패키지 입니다.
-
-os: debian buster
-
-ros version : noetic
+version
+> os: debian buster
+> ros: noetic
+> python: 3.7
+> opencv: 
 
 ## Debian buster 환경에 ros noetic 설치
 
@@ -74,20 +75,23 @@ sudo apt-get install qt4-dev-tools
 ## 실행 방법
 ```bash
 cd ~/2023CoilGun && catkin_make
-
+```
+serial connection with arduino
+```bash
 # upload arduino: use ServoControl.cpp.ino
-# serial connection with arduino
 roscore
 rosrun rosserial_python serial_node.py _port:=/dev/ttyACM0 _baud:=57600
 
 # example to publish servo msgs
 rostopic pub /servo1 std_msgs/UInt16 90 --once
 rostopic pub /servo2 std_msgs/UInt16 90 --once
-
-# lepton publish
+```
+SPI connection for publish msg of lepton
+```bash
 roslaunch flir_lepton captureAndView.launch
-
-# subscribe lepton and publish survo
+```
+subscribe all msg and publish msg for survo control
+```
 rosrun mux mux.py
 ```
 
@@ -95,3 +99,7 @@ rosrun mux mux.py
 [1] [How to Install ROS Noetic on Raspberry Pi 4 - VarHowto](https://varhowto.com/install-ros-noetic-raspberry-pi-4/)
 
 [2] https://github.com/groupgets/LeptonModule/tree/master/software/raspberrypi_video
+
+[3] https://jainn.tistory.com/12
+
+[4] https://velog.io/@dbdb_dev/ROS-%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8-%EC%84%A4%EC%B9%98
