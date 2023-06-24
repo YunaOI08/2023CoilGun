@@ -2,7 +2,8 @@
 4학년 1학기 종합설계및운용 강의를 위한 ros 패키지 입니다.
 
 ![ezgif-5-f3ae6afd67](https://github.com/YunaOI08/2023CoilGun/assets/87895999/beca67d4-f2e9-4820-b110-9f0e60e2035d)
-![coilgun_shoot](https://github.com/YunaOI08/2023CoilGun/assets/87895999/af937262-04db-4117-a862-f68a7d2aa845)
+
+![coilgun_shoot](https://github.com/YunaOI08/2023CoilGun/assets/87895999/8b55196c-8e72-42fe-877b-730edad3c1d6)
 
 
 version
